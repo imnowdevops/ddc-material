@@ -1,0 +1,34 @@
+version: 0.2
+
+#env:
+  #variables:
+     # key: "value"
+     # key: "value"
+  #parameter-store:
+     # key: "value"
+     # key: "value"
+
+phases:
+  install:
+   runtime-versions:
+      java: corretto8
+  pre_build:
+    commands:
+      - apt-get update
+      - apt-get install -y jq 
+      - wget http://www-eu.apache.org/dist/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz
+      - tar xzf apache-maven-3.5.4-bin.tar.gz
+      - ln -s apache-maven-3.5.4 maven
+      - sed -i 's/jdbc.password=admin123/jdbc.password=ILw5ZDjavaNHSqfhbzmG/' src/main/resources/application.properties
+      - sed -i 's/jdbc.username=admin/jdbc.username=admin/' src/main/resources/application.properties
+      - sed -i 's/db01:3306/vprords.corr19umlgnd.us-east-2.rds.amazonaws.com:3306/' src/main/resources/application.properties
+  build:
+    commands:
+      - mvn install
+  post_build:
+    commands:
+       - mvn package
+artifacts:
+  files:
+     - '**/*'
+  base-directory: 'target/vprofile-v2'

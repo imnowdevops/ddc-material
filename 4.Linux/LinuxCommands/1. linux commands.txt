@@ -1,0 +1,52 @@
+[vagrant@localhost ~]$ history
+    1  clear
+    2  whoami
+    3  exit
+    4  clear
+    5  whoami
+    6  pwd
+    7  ls
+    8  cat /etc/os-release
+    9  sudo -i
+
+[root@localhost ~]# history
+    1  whoami
+    2  pwd
+    3  ls
+    4  clear
+    5  cd /
+    6  pwd
+    7  ls
+    8  pwd
+    9  cd /bin
+   10  ls
+   11  clear
+   12  cd  /sbin/
+   13  ls
+   14  clear
+   15  cd /etc/
+   16  ls
+   17  cat /etc/hostname
+   18  clear
+   19  cd /tmp/
+   20  ls
+   21  cd /boot/
+   22  ls
+   23  cd grub
+   24  ls
+   25  cd ..
+   26  cd grub2/
+   27  ls
+   28  clear
+   29  pwd
+   30  cd
+   31  pwd
+   32  cd /proc/
+   33  ls
+   34  uptime
+   35  cat /proc/uptime
+   36  free -m
+   37  clear
+   38  ls
+   39  cd
+   40  clear

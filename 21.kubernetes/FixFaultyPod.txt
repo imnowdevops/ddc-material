@@ -1,0 +1,55 @@
+# Create a faulty pod
+vim pod2.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx12
+spec:
+  containers:
+  - name: nginx
+    image: nginox:1.14.2
+    ports:
+    - containerPort: 80
+
+kubectl apply -f pod2.yaml
+
+# Find the problem
+kubectl get pod
+kubectl get pod -o wide
+kubectl get pod nginx12 -o yaml
+kubectl describe pod nginx12
+clear
+ls
+
+# Fix it
+vim pod2.yaml
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx12
+spec:
+  containers:
+  - name: nginx
+    image: nginix:1.14.2
+    ports:
+    - containerPort: 80
+
+kubectl apply -f pod2.yaml
+
+# Create one more faulty pod
+kubectl run web2 --image=nginx test47
+
+# Find the problem
+kubectl get pod
+kubectl get pod web2 -o wide
+kubectl get pod web2 -o yaml
+kubectl get pod
+kubectl describe pod web2
+clear
+kubectl logs web2
+
+# Fix the problem
+kubectl delete pod web2
+kubectl run web2 --image=nginx
+kubectl get pod

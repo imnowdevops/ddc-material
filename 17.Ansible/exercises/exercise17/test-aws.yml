@@ -1,0 +1,34 @@
+---
+- name: Setup keypair and ec2 instance
+  hosts: localhost
+  tasks:
+    - name: create a new ec2 key pair, returns generated private key
+      ec2_key:
+        name: sample
+        region: us-east-2
+      register: keyout
+
+      #    - debug:
+      #  var: keyout
+        
+
+    - name: save private key content
+      copy:
+        content: "{{keyout.key.private_key}}"
+        dest: ./sample-key.pem
+      when: keyout.changed
+
+    - name: test ec2 instance
+      ec2:
+        key_name: sample
+        instance_type: t2.micro
+        image: ami-016b213e65284e9c9
+        wait: yes
+        instance_tags:
+          Name: vpro-web01
+          project: vprofile
+        exact_count: 1
+        count_tag:
+          Name: vpro-web01
+          project: vprofile
+        region: us-east-2

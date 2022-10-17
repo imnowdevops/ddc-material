@@ -1,0 +1,26 @@
+kubectl get ns
+kubectl get all
+kubectl get all --all-namespaces
+clear
+kubectl get svc -n kube-system
+kubectl create ns kubekart
+kubectl run nginx1 --image=nginx -n kubekart
+kubectl run nginx1 --image=nginx -n kubekart
+
+vim pod1.yaml
+cat pod1.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx12
+  namespace: kubekart
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.14.2
+    ports:
+    - containerPort: 80
+
+kubectl apply -f pod1.yaml
+kubectl get pod -n kubekart
+kubectl delete ns kubekart

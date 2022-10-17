@@ -1,0 +1,51 @@
+sudo -i
+ssh-keygen
+clear
+sudo apt update
+sudo apt install awscli -y
+clea
+clear
+aws configure
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+curl -Lo kops https://github.com/kubernetes/kops/releases/download/$(curl -s https://api.github.com/repos/kubernetes/kops/releases/latest | grep tag_name | cut -d '"' -f 4)/kops-linux-amd64
+chmod +x kops
+sudo mv kops /usr/local/bin/kops
+kops
+kubectl
+clear
+kops create cluster --name=kubevpro.groophy.in --state=s3://vproile-kops-state --zones=us-west-2a,us-west-2b --node-count=2 --node-size=t3.small \
+clear
+kops create cluster --name=kubevpro.groophy.in --state=s3://vproile-kops-state --zones=us-west-2a,us-west-2b --node-count=2 --node-size=t3.small --master-size=t3.medium --dns-zone=kubevpro.groophy.in --node-volume-size=8 --master-volume-size=8
+kops update cluster --name kubevpro.groophy.in --state=s3://vproile-kops-state --yes --admin
+clear
+kubectl get nodes
+clear
+kubectl get nodes
+kubectl get nodes -o wide
+kubectl describe node ip-172-20-86-99.us-west-2.compute.internal
+clear
+kubectl get nodes
+kubectl get nodes ip-172-20-41-44.us-west-2.compute.internal -o yaml
+clear
+kubectl get nodes ip-172-20-41-44.us-west-2.compute.internal -o json
+clear
+history
+clear
+vim pod1.yaml
+kubectl apply -f pod1.yaml
+kubectl get pod
+kubectl get pod -o wide
+kubectl get pod nginx -o yaml
+clear
+kubectl get pod nginx -o json
+clear
+kubectl describe pod nginx
+clear
+kubectl delete pod nginx
+ls
+kubectl run nginx1 --image=nginx
+kubectl get pod
+kubectl edit pod nginx
+kubectl edit pod nginx1
+kubectl get pod

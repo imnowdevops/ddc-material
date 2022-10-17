@@ -1,0 +1,15 @@
+---
+# handlers file for post-install
+- name: Restart NTP on Redhat
+  service:
+    name: ntpd
+    state: restarted
+    enabled: yes
+  when: ansible_os_family == "RedHat"
+
+- name: Restart NTP on Debian
+  service:
+     name: ntp
+     state: restarted
+     enabled: yes
+  when: ansible_os_family == "Debian"

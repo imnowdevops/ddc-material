@@ -1,0 +1,1123 @@
+################################################################
+Debian based system detected.
+################################################################
+
+
+Installing Packages
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+################################################################
+
+
+Starting and Enabling Service
+Failed to start apache2.service: Interactive authentication required.
+See system logs and 'systemctl status apache2.service' for details.
+apache2.service is not a native service, redirecting to systemd-sysv-install
+Executing /lib/systemd/systemd-sysv-install enable apache2
+insserv: fopen(.depend.stop): Permission denied
+Failed to execute operation: Interactive authentication required.
+insserv: fopen(.depend.stop): Permission denied
+Failed to execute operation: Interactive authentication required.
+################################################################
+
+
+Copying website data
+website.zip: Permission denied
+Archive:  website.zip
+error:  cannot delete old 2093_flight/contact.html
+        Permission denied
+error:  cannot delete old 2093_flight/css/bootstrap-theme.css
+        Permission denied
+error:  cannot delete old 2093_flight/css/bootstrap-theme.css.map
+        Permission denied
+error:  cannot delete old 2093_flight/css/bootstrap-theme.min.css
+        Permission denied
+error:  cannot delete old 2093_flight/css/bootstrap.css
+        Permission denied
+error:  cannot delete old 2093_flight/css/bootstrap.css.map
+        Permission denied
+error:  cannot delete old 2093_flight/css/bootstrap.min.css
+        Permission denied
+error:  cannot delete old 2093_flight/css/datepicker.css
+        Permission denied
+error:  cannot delete old 2093_flight/css/fontAwesome.css
+        Permission denied
+error:  cannot delete old 2093_flight/css/fonts/flexslider-icon.eot
+        Permission denied
+error:  cannot delete old 2093_flight/css/fonts/flexslider-icon.svg
+        Permission denied
+error:  cannot delete old 2093_flight/css/fonts/flexslider-icon.ttf
+        Permission denied
+error:  cannot delete old 2093_flight/css/fonts/flexslider-icon.woff
+        Permission denied
+error:  cannot delete old 2093_flight/css/hero-slider.css
+        Permission denied
+error:  cannot delete old 2093_flight/css/owl-carousel.css
+        Permission denied
+error:  cannot delete old 2093_flight/css/tooplate-style.css
+        Permission denied
+error:  cannot delete old 2093_flight/fonts/fontawesome-webfont.eot
+        Permission denied
+error:  cannot delete old 2093_flight/fonts/fontawesome-webfont.svg
+        Permission denied
+error:  cannot delete old 2093_flight/fonts/fontawesome-webfont.ttf
+        Permission denied
+error:  cannot delete old 2093_flight/fonts/fontawesome-webfont.woff
+        Permission denied
+error:  cannot delete old 2093_flight/fonts/fontawesome-webfont.woff2
+        Permission denied
+error:  cannot delete old 2093_flight/fonts/FontAwesome.otf
+        Permission denied
+error:  cannot delete old 2093_flight/fonts/glyphicons-halflings-regular.eot
+        Permission denied
+error:  cannot delete old 2093_flight/fonts/glyphicons-halflings-regular.svg
+        Permission denied
+error:  cannot delete old 2093_flight/fonts/glyphicons-halflings-regular.ttf
+        Permission denied
+error:  cannot delete old 2093_flight/fonts/glyphicons-halflings-regular.woff
+        Permission denied
+error:  cannot delete old 2093_flight/img/banner-bg.jpg
+        Permission denied
+error:  cannot delete old 2093_flight/img/close.png
+        Permission denied
+error:  cannot delete old 2093_flight/img/contact-01.jpg
+        Permission denied
+error:  cannot delete old 2093_flight/img/contact-02.jpg
+        Permission denied
+error:  cannot delete old 2093_flight/img/contact-bg.jpg
+        Permission denied
+error:  cannot delete old 2093_flight/img/evening-event.jpg
+        Permission denied
+error:  cannot delete old 2093_flight/img/fitness-service.jpg
+        Permission denied
+error:  cannot delete old 2093_flight/img/heading-bg.jpg
+        Permission denied
+error:  cannot delete old 2093_flight/img/loading.gif
+        Permission denied
+error:  cannot delete old 2093_flight/img/logo.png
+        Permission denied
+error:  cannot delete old 2093_flight/img/massage-service.jpg
+        Permission denied
+error:  cannot delete old 2093_flight/img/next.png
+        Permission denied
+error:  cannot delete old 2093_flight/img/place-01.jpg
+        Permission denied
+error:  cannot delete old 2093_flight/img/place-02.jpg
+        Permission denied
+error:  cannot delete old 2093_flight/img/place-03.jpg
+        Permission denied
+error:  cannot delete old 2093_flight/img/place-04.jpg
+        Permission denied
+error:  cannot delete old 2093_flight/img/prev.png
+        Permission denied
+error:  cannot delete old 2093_flight/img/service-icon-01.1.png
+        Permission denied
+error:  cannot delete old 2093_flight/img/service-icon-01.png
+        Permission denied
+error:  cannot delete old 2093_flight/img/service-icon-02.2.png
+        Permission denied
+error:  cannot delete old 2093_flight/img/service-icon-02.png
+        Permission denied
+error:  cannot delete old 2093_flight/img/service-icon-03.3.png
+        Permission denied
+error:  cannot delete old 2093_flight/img/service-icon-03.png
+        Permission denied
+error:  cannot delete old 2093_flight/img/suite-01.jpg
+        Permission denied
+error:  cannot delete old 2093_flight/img/suite-02.jpg
+        Permission denied
+error:  cannot delete old 2093_flight/img/suite-03.jpg
+        Permission denied
+error:  cannot delete old 2093_flight/img/swiming-pool.jpg
+        Permission denied
+error:  cannot delete old 2093_flight/img/weather-bg.jpg
+        Permission denied
+error:  cannot delete old 2093_flight/img/weather-icon-01.png
+        Permission denied
+error:  cannot delete old 2093_flight/img/weather-icon-02.png
+        Permission denied
+error:  cannot delete old 2093_flight/img/weather-icon-03.png
+        Permission denied
+error:  cannot delete old 2093_flight/index.html
+        Permission denied
+error:  cannot delete old 2093_flight/js/datepicker.js
+        Permission denied
+error:  cannot delete old 2093_flight/js/main.js
+        Permission denied
+error:  cannot delete old 2093_flight/js/plugins.js
+        Permission denied
+error:  cannot delete old 2093_flight/js/vendor/bootstrap.js
+        Permission denied
+error:  cannot delete old 2093_flight/js/vendor/bootstrap.min.js
+        Permission denied
+error:  cannot delete old 2093_flight/js/vendor/jquery-1.11.2.min.js
+        Permission denied
+error:  cannot delete old 2093_flight/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js
+        Permission denied
+error:  cannot delete old 2093_flight/js/vendor/npm.js
+        Permission denied
+error:  cannot delete old 2093_flight/ABOUT THIS TEMPLATE.txt
+        Permission denied
+cp: cannot stat '/tmp/2112_brunch/*': No such file or directory
+################################################################
+
+
+Restarting Service
+Failed to restart apache2.service: Interactive authentication required.
+See system logs and 'systemctl status apache2.service' for details.
+################################################################
+################################################################
+Debian based system detected.
+################################################################
+
+
+Installing Packages
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+unzip is already the newest version (6.0-20ubuntu1).
+apache2 is already the newest version (2.4.18-2ubuntu3.9).
+wget is already the newest version (1.17.1-1ubuntu1.4).
+0 upgraded, 0 newly installed, 0 to remove and 7 not upgraded.
+################################################################
+
+
+Starting and Enabling Service
+apache2.service is not a native service, redirecting to systemd-sysv-install
+Executing /lib/systemd/systemd-sysv-install enable apache2
+################################################################
+
+
+Copying website data
+wget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+Archive:  website.zip
+  inflating: 2093_flight/contact.html  
+  inflating: 2093_flight/css/bootstrap-theme.css  
+  inflating: 2093_flight/css/bootstrap-theme.css.map  
+  inflating: 2093_flight/css/bootstrap-theme.min.css  
+  inflating: 2093_flight/css/bootstrap.css  
+  inflating: 2093_flight/css/bootstrap.css.map  
+  inflating: 2093_flight/css/bootstrap.min.css  
+  inflating: 2093_flight/css/datepicker.css  
+  inflating: 2093_flight/css/fontAwesome.css  
+  inflating: 2093_flight/css/fonts/flexslider-icon.eot  
+  inflating: 2093_flight/css/fonts/flexslider-icon.svg  
+  inflating: 2093_flight/css/fonts/flexslider-icon.ttf  
+  inflating: 2093_flight/css/fonts/flexslider-icon.woff  
+  inflating: 2093_flight/css/hero-slider.css  
+  inflating: 2093_flight/css/owl-carousel.css  
+  inflating: 2093_flight/css/tooplate-style.css  
+  inflating: 2093_flight/fonts/fontawesome-webfont.eot  
+  inflating: 2093_flight/fonts/fontawesome-webfont.svg  
+  inflating: 2093_flight/fonts/fontawesome-webfont.ttf  
+  inflating: 2093_flight/fonts/fontawesome-webfont.woff  
+  inflating: 2093_flight/fonts/fontawesome-webfont.woff2  
+  inflating: 2093_flight/fonts/FontAwesome.otf  
+  inflating: 2093_flight/fonts/glyphicons-halflings-regular.eot  
+  inflating: 2093_flight/fonts/glyphicons-halflings-regular.svg  
+  inflating: 2093_flight/fonts/glyphicons-halflings-regular.ttf  
+  inflating: 2093_flight/fonts/glyphicons-halflings-regular.woff  
+  inflating: 2093_flight/img/banner-bg.jpg  
+  inflating: 2093_flight/img/close.png  
+  inflating: 2093_flight/img/contact-01.jpg  
+  inflating: 2093_flight/img/contact-02.jpg  
+  inflating: 2093_flight/img/contact-bg.jpg  
+  inflating: 2093_flight/img/evening-event.jpg  
+  inflating: 2093_flight/img/fitness-service.jpg  
+  inflating: 2093_flight/img/heading-bg.jpg  
+  inflating: 2093_flight/img/loading.gif  
+  inflating: 2093_flight/img/logo.png  
+  inflating: 2093_flight/img/massage-service.jpg  
+  inflating: 2093_flight/img/next.png  
+  inflating: 2093_flight/img/place-01.jpg  
+  inflating: 2093_flight/img/place-02.jpg  
+  inflating: 2093_flight/img/place-03.jpg  
+  inflating: 2093_flight/img/place-04.jpg  
+  inflating: 2093_flight/img/prev.png  
+  inflating: 2093_flight/img/service-icon-01.1.png  
+  inflating: 2093_flight/img/service-icon-01.png  
+  inflating: 2093_flight/img/service-icon-02.2.png  
+  inflating: 2093_flight/img/service-icon-02.png  
+  inflating: 2093_flight/img/service-icon-03.3.png  
+  inflating: 2093_flight/img/service-icon-03.png  
+  inflating: 2093_flight/img/suite-01.jpg  
+  inflating: 2093_flight/img/suite-02.jpg  
+  inflating: 2093_flight/img/suite-03.jpg  
+  inflating: 2093_flight/img/swiming-pool.jpg  
+  inflating: 2093_flight/img/weather-bg.jpg  
+  inflating: 2093_flight/img/weather-icon-01.png  
+  inflating: 2093_flight/img/weather-icon-02.png  
+  inflating: 2093_flight/img/weather-icon-03.png  
+  inflating: 2093_flight/index.html  
+  inflating: 2093_flight/js/datepicker.js  
+  inflating: 2093_flight/js/main.js  
+  inflating: 2093_flight/js/plugins.js  
+  inflating: 2093_flight/js/vendor/bootstrap.js  
+  inflating: 2093_flight/js/vendor/bootstrap.min.js  
+  inflating: 2093_flight/js/vendor/jquery-1.11.2.min.js  
+  inflating: 2093_flight/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js  
+  inflating: 2093_flight/js/vendor/npm.js  
+  inflating: 2093_flight/ABOUT THIS TEMPLATE.txt  
+################################################################
+
+
+Restarting Service
+################################################################
+################################################################
+Debian based system detected.
+################################################################
+
+
+Installing Packages
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+unzip is already the newest version (6.0-20ubuntu1).
+apache2 is already the newest version (2.4.18-2ubuntu3.9).
+wget is already the newest version (1.17.1-1ubuntu1.4).
+0 upgraded, 0 newly installed, 0 to remove and 7 not upgraded.
+################################################################
+
+
+Starting and Enabling Service
+apache2.service is not a native service, redirecting to systemd-sysv-install
+Executing /lib/systemd/systemd-sysv-install enable apache2
+################################################################
+
+
+Copying website data
+wget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+Archive:  website.zip
+  inflating: 2093_flight/contact.html  
+  inflating: 2093_flight/css/bootstrap-theme.css  
+  inflating: 2093_flight/css/bootstrap-theme.css.map  
+  inflating: 2093_flight/css/bootstrap-theme.min.css  
+  inflating: 2093_flight/css/bootstrap.css  
+  inflating: 2093_flight/css/bootstrap.css.map  
+  inflating: 2093_flight/css/bootstrap.min.css  
+  inflating: 2093_flight/css/datepicker.css  
+  inflating: 2093_flight/css/fontAwesome.css  
+  inflating: 2093_flight/css/fonts/flexslider-icon.eot  
+  inflating: 2093_flight/css/fonts/flexslider-icon.svg  
+  inflating: 2093_flight/css/fonts/flexslider-icon.ttf  
+  inflating: 2093_flight/css/fonts/flexslider-icon.woff  
+  inflating: 2093_flight/css/hero-slider.css  
+  inflating: 2093_flight/css/owl-carousel.css  
+  inflating: 2093_flight/css/tooplate-style.css  
+  inflating: 2093_flight/fonts/fontawesome-webfont.eot  
+  inflating: 2093_flight/fonts/fontawesome-webfont.svg  
+  inflating: 2093_flight/fonts/fontawesome-webfont.ttf  
+  inflating: 2093_flight/fonts/fontawesome-webfont.woff  
+  inflating: 2093_flight/fonts/fontawesome-webfont.woff2  
+  inflating: 2093_flight/fonts/FontAwesome.otf  
+  inflating: 2093_flight/fonts/glyphicons-halflings-regular.eot  
+  inflating: 2093_flight/fonts/glyphicons-halflings-regular.svg  
+  inflating: 2093_flight/fonts/glyphicons-halflings-regular.ttf  
+  inflating: 2093_flight/fonts/glyphicons-halflings-regular.woff  
+  inflating: 2093_flight/img/banner-bg.jpg  
+  inflating: 2093_flight/img/close.png  
+  inflating: 2093_flight/img/contact-01.jpg  
+  inflating: 2093_flight/img/contact-02.jpg  
+  inflating: 2093_flight/img/contact-bg.jpg  
+  inflating: 2093_flight/img/evening-event.jpg  
+  inflating: 2093_flight/img/fitness-service.jpg  
+  inflating: 2093_flight/img/heading-bg.jpg  
+  inflating: 2093_flight/img/loading.gif  
+  inflating: 2093_flight/img/logo.png  
+  inflating: 2093_flight/img/massage-service.jpg  
+  inflating: 2093_flight/img/next.png  
+  inflating: 2093_flight/img/place-01.jpg  
+  inflating: 2093_flight/img/place-02.jpg  
+  inflating: 2093_flight/img/place-03.jpg  
+  inflating: 2093_flight/img/place-04.jpg  
+  inflating: 2093_flight/img/prev.png  
+  inflating: 2093_flight/img/service-icon-01.1.png  
+  inflating: 2093_flight/img/service-icon-01.png  
+  inflating: 2093_flight/img/service-icon-02.2.png  
+  inflating: 2093_flight/img/service-icon-02.png  
+  inflating: 2093_flight/img/service-icon-03.3.png  
+  inflating: 2093_flight/img/service-icon-03.png  
+  inflating: 2093_flight/img/suite-01.jpg  
+  inflating: 2093_flight/img/suite-02.jpg  
+  inflating: 2093_flight/img/suite-03.jpg  
+  inflating: 2093_flight/img/swiming-pool.jpg  
+  inflating: 2093_flight/img/weather-bg.jpg  
+  inflating: 2093_flight/img/weather-icon-01.png  
+  inflating: 2093_flight/img/weather-icon-02.png  
+  inflating: 2093_flight/img/weather-icon-03.png  
+  inflating: 2093_flight/index.html  
+  inflating: 2093_flight/js/datepicker.js  
+  inflating: 2093_flight/js/main.js  
+  inflating: 2093_flight/js/plugins.js  
+  inflating: 2093_flight/js/vendor/bootstrap.js  
+  inflating: 2093_flight/js/vendor/bootstrap.min.js  
+  inflating: 2093_flight/js/vendor/jquery-1.11.2.min.js  
+  inflating: 2093_flight/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js  
+  inflating: 2093_flight/js/vendor/npm.js  
+  inflating: 2093_flight/ABOUT THIS TEMPLATE.txt  
+################################################################
+
+
+Restarting Service
+################################################################
+2112_brunch
+https://www.tooplate.com/download/2112_brunch
+################################################################
+Debian based system detected.
+################################################################
+
+
+Installing Packages
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+unzip is already the newest version (6.0-20ubuntu1).
+apache2 is already the newest version (2.4.18-2ubuntu3.9).
+wget is already the newest version (1.17.1-1ubuntu1.4).
+0 upgraded, 0 newly installed, 0 to remove and 7 not upgraded.
+################################################################
+
+
+Starting and Enabling Service
+apache2.service is not a native service, redirecting to systemd-sysv-install
+Executing /lib/systemd/systemd-sysv-install enable apache2
+################################################################
+
+
+Copying website data
+--2018-12-25 10:18:31--  https://www.tooplate.com/download/2112_brunch
+Resolving www.tooplate.com (www.tooplate.com)... 67.227.140.19
+Connecting to www.tooplate.com (www.tooplate.com)|67.227.140.19|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://www.tooplate.com/zip-templates/2112_brunch.zip [following]
+--2018-12-25 10:18:32--  https://www.tooplate.com/zip-templates/2112_brunch.zip
+Connecting to www.tooplate.com (www.tooplate.com)|67.227.140.19|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 7861350 (7.5M) [application/zip]
+Saving to: ‘website.zip’
+
+     0K .......... .......... .......... .......... ..........  0% 73.2K 1m44s
+    50K .......... .......... .......... .......... ..........  1%  206K 70s
+   100K .......... .......... .......... .......... ..........  1%  211K 58s
+   150K .......... .......... .......... .......... ..........  2%  210K 52s
+   200K .......... .......... .......... .......... ..........  3%  236K 48s
+   250K .......... .......... .......... .......... ..........  3%  222K 45s
+   300K .......... .......... .......... .......... ..........  4% 2.15M 39s
+   350K .......... .......... .......... .......... ..........  5%  231K 38s
+   400K .......... .......... .......... .......... ..........  5% 2.95M 34s
+   450K .......... .......... .......... .......... ..........  6%  235K 33s
+   500K .......... .......... .......... .......... ..........  7% 47.9M 30s
+   550K .......... .......... .......... .......... ..........  7% 7.65M 27s
+   600K .......... .......... .......... .......... ..........  8%  225K 27s
+   650K .......... .......... .......... .......... ..........  9% 3.16M 25s
+   700K .......... .......... .......... .......... ..........  9% 29.4M 24s
+   750K .......... .......... .......... .......... .......... 10% 60.9M 22s
+   800K .......... .......... .......... .......... .......... 11%  210K 22s
+   850K .......... .......... .......... .......... .......... 11% 14.3M 21s
+   900K .......... .......... .......... .......... .......... 12% 29.5M 20s
+   950K .......... .......... .......... .......... .......... 13%  261K 20s
+  1000K .......... .......... .......... .......... .......... 13% 3.94M 19s
+  1050K .......... .......... .......... .......... .......... 14% 5.28M 18s
+  1100K .......... .......... .......... .......... .......... 14% 3.05M 17s
+  1150K .......... .......... .......... .......... .......... 15% 7.95M 16s
+  1200K .......... .......... .......... .......... .......... 16%  243K 17s
+  1250K .......... .......... .......... .......... .......... 16% 75.2M 16s
+  1300K .......... .......... .......... .......... .......... 17% 4.70M 15s
+  1350K .......... .......... .......... .......... .......... 18% 3.43M 15s
+  1400K .......... .......... .......... .......... .......... 18% 4.00M 14s
+  1450K .......... .......... .......... .......... .......... 19% 4.10M 14s
+  1500K .......... .......... .......... .......... .......... 20%  240K 14s
+  1550K .......... .......... .......... .......... .......... 20% 20.1M 13s
+  1600K .......... .......... .......... .......... .......... 21% 34.1M 13s
+  1650K .......... .......... .......... .......... .......... 22% 36.4M 12s
+  1700K .......... .......... .......... .......... .......... 22% 2.32M 12s
+  1750K .......... .......... .......... .......... .......... 23% 2.12M 12s
+  1800K .......... .......... .......... .......... .......... 24% 43.2M 11s
+  1850K .......... .......... .......... .......... .......... 24%  341K 11s
+  1900K .......... .......... .......... .......... .......... 25%  912K 11s
+  1950K .......... .......... .......... .......... .......... 26% 53.2M 11s
+  2000K .......... .......... .......... .......... .......... 26% 7.74M 10s
+  2050K .......... .......... .......... .......... .......... 27%  198K 11s
+  2100K .......... .......... .......... .......... .......... 28% 14.6M 10s
+  2150K .......... .......... .......... .......... .......... 28% 13.6M 10s
+  2200K .......... .......... .......... .......... .......... 29% 24.9M 10s
+  2250K .......... .......... .......... .......... .......... 29% 32.2M 9s
+  2300K .......... .......... .......... .......... .......... 30% 92.3M 9s
+  2350K .......... .......... .......... .......... .......... 31% 19.3M 9s
+  2400K .......... .......... .......... .......... .......... 31% 23.7M 9s
+  2450K .......... .......... .......... .......... .......... 32% 36.2M 8s
+  2500K .......... .......... .......... .......... .......... 33% 18.6M 8s
+  2550K .......... .......... .......... .......... .......... 33% 15.0M 8s
+  2600K .......... .......... .......... .......... .......... 34% 14.4M 8s
+  2650K .......... .......... .......... .......... .......... 35% 47.4M 7s
+  2700K .......... .......... .......... .......... .......... 35%  440K 7s
+  2750K .......... .......... .......... .......... .......... 36% 1.13M 7s
+  2800K .......... .......... .......... .......... .......... 37% 1.17M 7s
+  2850K .......... .......... .......... .......... .......... 37% 5.00M 7s
+  2900K .......... .......... .......... .......... .......... 38% 7.20M 7s
+  2950K .......... .......... .......... .......... .......... 39% 3.33M 7s
+  3000K .......... .......... .......... .......... .......... 39% 7.86M 6s
+  3050K .......... .......... .......... .......... .......... 40%  394K 6s
+  3100K .......... .......... .......... .......... .......... 41% 1.95M 6s
+  3150K .......... .......... .......... .......... .......... 41% 4.28M 6s
+  3200K .......... .......... .......... .......... .......... 42%  792K 6s
+  3250K .......... .......... .......... .......... .......... 42% 5.39M 6s
+  3300K .......... .......... .......... .......... .......... 43% 5.36M 6s
+  3350K .......... .......... .......... .......... .......... 44%  193K 6s
+  3400K .......... .......... .......... .......... .......... 44%  773K 6s
+  3450K .......... .......... .......... .......... .......... 45% 12.3M 6s
+  3500K .......... .......... .......... .......... .......... 46% 8.15M 6s
+  3550K .......... .......... .......... .......... .......... 46% 8.85M 5s
+  3600K .......... .......... .......... .......... .......... 47% 8.25M 5s
+  3650K .......... .......... .......... .......... .......... 48% 57.0M 5s
+  3700K .......... .......... .......... .......... .......... 48% 56.5M 5s
+  3750K .......... .......... .......... .......... .......... 49% 57.8M 5s
+  3800K .......... .......... .......... .......... .......... 50% 1.95M 5s
+  3850K .......... .......... .......... .......... .......... 50% 1.17M 5s
+  3900K .......... .......... .......... .......... .......... 51%  970K 5s
+  3950K .......... .......... .......... .......... .......... 52% 2.26M 5s
+  4000K .......... .......... .......... .......... .......... 52%  891K 5s
+  4050K .......... .......... .......... .......... .......... 53%  798K 4s
+  4100K .......... .......... .......... .......... .......... 54% 1.60M 4s
+  4150K .......... .......... .......... .......... .......... 54%  726K 4s
+  4200K .......... .......... .......... .......... .......... 55% 6.32M 4s
+  4250K .......... .......... .......... .......... .......... 56% 3.52M 4s
+  4300K .......... .......... .......... .......... .......... 56%  690K 4s
+  4350K .......... .......... .......... .......... .......... 57% 1.16M 4s
+  4400K .......... .......... .......... .......... .......... 57%  525K 4s
+  4450K .......... .......... .......... .......... .......... 58% 11.4M 4s
+  4500K .......... .......... .......... .......... .......... 59% 3.23M 4s
+  4550K .......... .......... .......... .......... .......... 59%  969K 4s
+  4600K .......... .......... .......... .......... .......... 60%  892K 4s
+  4650K .......... .......... .......... .......... .......... 61% 1.77M 4s
+  4700K .......... .......... .......... .......... .......... 61%  670K 4s
+  4750K .......... .......... .......... .......... .......... 62% 3.80M 3s
+  4800K .......... .......... .......... .......... .......... 63% 3.53M 3s
+  4850K .......... .......... .......... .......... .......... 63%  604K 3s
+  4900K .......... .......... .......... .......... .......... 64% 1.60M 3s
+  4950K .......... .......... .......... .......... .......... 65%  678K 3s
+  5000K .......... .......... .......... .......... .......... 65% 1.41M 3s
+  5050K .......... .......... .......... .......... .......... 66% 5.76M 3s
+  5100K .......... .......... .......... .......... .......... 67% 26.9M 3s
+  5150K .......... .......... .......... .......... .......... 67%  508K 3s
+  5200K .......... .......... .......... .......... .......... 68% 1.96M 3s
+  5250K .......... .......... .......... .......... .......... 69%  603K 3s
+  5300K .......... .......... .......... .......... .......... 69% 2.99M 3s
+  5350K .......... .......... .......... .......... .......... 70% 6.91M 3s
+  5400K .......... .......... .......... .......... .......... 70% 1.40M 3s
+  5450K .......... .......... .......... .......... .......... 71%  823K 2s
+  5500K .......... .......... .......... .......... .......... 72% 3.16M 2s
+  5550K .......... .......... .......... .......... .......... 72%  583K 2s
+  5600K .......... .......... .......... .......... .......... 73% 1.75M 2s
+  5650K .......... .......... .......... .......... .......... 74% 3.70M 2s
+  5700K .......... .......... .......... .......... .......... 74% 1.83M 2s
+  5750K .......... .......... .......... .......... .......... 75%  775K 2s
+  5800K .......... .......... .......... .......... .......... 76% 2.75M 2s
+  5850K .......... .......... .......... .......... .......... 76%  640K 2s
+  5900K .......... .......... .......... .......... .......... 77% 1.67M 2s
+  5950K .......... .......... .......... .......... .......... 78% 3.91M 2s
+  6000K .......... .......... .......... .......... .......... 78% 1.65M 2s
+  6050K .......... .......... .......... .......... .......... 79%  745K 2s
+  6100K .......... .......... .......... .......... .......... 80% 3.21M 2s
+  6150K .......... .......... .......... .......... .......... 80%  624K 2s
+  6200K .......... .......... .......... .......... .......... 81% 2.03M 2s
+  6250K .......... .......... .......... .......... .......... 82% 1.96M 2s
+  6300K .......... .......... .......... .......... .......... 82% 4.34M 1s
+  6350K .......... .......... .......... .......... .......... 83%  679K 1s
+  6400K .......... .......... .......... .......... .......... 84% 2.01M 1s
+  6450K .......... .......... .......... .......... .......... 84%  706K 1s
+  6500K .......... .......... .......... .......... .......... 85% 2.53M 1s
+  6550K .......... .......... .......... .......... .......... 85% 1.64M 1s
+  6600K .......... .......... .......... .......... .......... 86% 2.33M 1s
+  6650K .......... .......... .......... .......... .......... 87%  872K 1s
+  6700K .......... .......... .......... .......... .......... 87% 2.95M 1s
+  6750K .......... .......... .......... .......... .......... 88% 1010K 1s
+  6800K .......... .......... .......... .......... .......... 89% 1.07M 1s
+  6850K .......... .......... .......... .......... .......... 89% 1.34M 1s
+  6900K .......... .......... .......... .......... .......... 90% 3.40M 1s
+  6950K .......... .......... .......... .......... .......... 91% 1.41M 1s
+  7000K .......... .......... .......... .......... .......... 91%  894K 1s
+  7050K .......... .......... .......... .......... .......... 92% 5.16M 1s
+  7100K .......... .......... .......... .......... .......... 93%  655K 1s
+  7150K .......... .......... .......... .......... .......... 93% 2.12M 1s
+  7200K .......... .......... .......... .......... .......... 94% 1.19M 0s
+  7250K .......... .......... .......... .......... .......... 95% 5.78M 0s
+  7300K .......... .......... .......... .......... .......... 95%  809K 0s
+  7350K .......... .......... .......... .......... .......... 96% 1.73M 0s
+  7400K .......... .......... .......... .......... .......... 97%  683K 0s
+  7450K .......... .......... .......... .......... .......... 97% 2.63M 0s
+  7500K .......... .......... .......... .......... .......... 98% 1.10M 0s
+  7550K .......... .......... .......... .......... .......... 98% 3.07M 0s
+  7600K .......... .......... .......... .......... .......... 99% 1.19M 0s
+  7650K .......... .......... .......                         100% 4.12M=7.9s
+
+2018-12-25 10:18:41 (974 KB/s) - ‘website.zip’ saved [7861350/7861350]
+
+Archive:  website.zip
+   creating: 2112_brunch/
+  inflating: 2112_brunch/contact-page.html  
+   creating: 2112_brunch/css/
+  inflating: 2112_brunch/css/bootstrap-theme.css  
+  inflating: 2112_brunch/css/bootstrap-theme.css.map  
+  inflating: 2112_brunch/css/bootstrap-theme.min.css  
+  inflating: 2112_brunch/css/bootstrap.css  
+  inflating: 2112_brunch/css/bootstrap.css.map  
+  inflating: 2112_brunch/css/bootstrap.min.css  
+  inflating: 2112_brunch/css/datepicker.css  
+  inflating: 2112_brunch/css/fontAwesome.css  
+   creating: 2112_brunch/css/fonts/
+  inflating: 2112_brunch/css/fonts/flexslider-icon.eot  
+  inflating: 2112_brunch/css/fonts/flexslider-icon.svg  
+  inflating: 2112_brunch/css/fonts/flexslider-icon.ttf  
+  inflating: 2112_brunch/css/fonts/flexslider-icon.woff  
+  inflating: 2112_brunch/css/hero-slider.css  
+  inflating: 2112_brunch/css/owl-carousel.css  
+  inflating: 2112_brunch/css/tooplate-style.css  
+   creating: 2112_brunch/fonts/
+  inflating: 2112_brunch/fonts/fontawesome-webfont.eot  
+  inflating: 2112_brunch/fonts/fontawesome-webfont.svg  
+  inflating: 2112_brunch/fonts/fontawesome-webfont.ttf  
+  inflating: 2112_brunch/fonts/fontawesome-webfont.woff  
+  inflating: 2112_brunch/fonts/fontawesome-webfont.woff2  
+  inflating: 2112_brunch/fonts/FontAwesome.otf  
+  inflating: 2112_brunch/fonts/glyphicons-halflings-regular.eot  
+  inflating: 2112_brunch/fonts/glyphicons-halflings-regular.svg  
+  inflating: 2112_brunch/fonts/glyphicons-halflings-regular.ttf  
+  inflating: 2112_brunch/fonts/glyphicons-halflings-regular.woff  
+  inflating: 2112_brunch/generic-page.html  
+   creating: 2112_brunch/img/
+  inflating: 2112_brunch/img/center-image.png  
+  inflating: 2112_brunch/img/left-image-post.png  
+  inflating: 2112_brunch/img/right-image-post.png  
+  inflating: 2112_brunch/img/template-author.png  
+  inflating: 2112_brunch/img/template-image.png  
+  inflating: 2112_brunch/img/white-logo.png  
+  inflating: 2112_brunch/index.html  
+   creating: 2112_brunch/js/
+  inflating: 2112_brunch/js/datepicker.js  
+  inflating: 2112_brunch/js/main.js  
+  inflating: 2112_brunch/js/plugins.js  
+   creating: 2112_brunch/js/vendor/
+  inflating: 2112_brunch/js/vendor/bootstrap.js  
+  inflating: 2112_brunch/js/vendor/bootstrap.min.js  
+  inflating: 2112_brunch/js/vendor/jquery-1.11.2.min.js  
+  inflating: 2112_brunch/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js  
+  inflating: 2112_brunch/js/vendor/npm.js  
+  inflating: 2112_brunch/prepros-6.config  
+   creating: 2112_brunch/videos/
+  inflating: 2112_brunch/videos/highway-loop.mp4  
+################################################################
+
+
+Restarting Service
+################################################################
+2112_brunch
+https://www.tooplate.com/download/2112_brunch
+################################################################
+Debian based system detected.
+################################################################
+
+
+Installing Packages
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+unzip is already the newest version (6.0-20ubuntu1).
+apache2 is already the newest version (2.4.18-2ubuntu3.9).
+wget is already the newest version (1.17.1-1ubuntu1.4).
+0 upgraded, 0 newly installed, 0 to remove and 7 not upgraded.
+################################################################
+
+
+Starting and Enabling Service
+apache2.service is not a native service, redirecting to systemd-sysv-install
+Executing /lib/systemd/systemd-sysv-install enable apache2
+################################################################
+
+
+Copying website data
+--2018-12-25 10:20:30--  https://www.tooplate.com/download/2112_brunch
+Resolving www.tooplate.com (www.tooplate.com)... 67.227.140.19
+Connecting to www.tooplate.com (www.tooplate.com)|67.227.140.19|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://www.tooplate.com/zip-templates/2112_brunch.zip [following]
+--2018-12-25 10:20:31--  https://www.tooplate.com/zip-templates/2112_brunch.zip
+Connecting to www.tooplate.com (www.tooplate.com)|67.227.140.19|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 7861350 (7.5M) [application/zip]
+Saving to: ‘website.zip’
+
+     0K .......... .......... .......... .......... ..........  0% 70.5K 1m48s
+    50K .......... .......... .......... .......... ..........  1%  213K 72s
+   100K .......... .......... .......... .......... ..........  1%  201K 60s
+   150K .......... .......... .......... .......... ..........  2%  207K 54s
+   200K .......... .......... .......... .......... ..........  3%  217K 49s
+   250K .......... .......... .......... .......... ..........  3%  200K 47s
+   300K .......... .......... .......... .......... ..........  4% 1.42M 41s
+   350K .......... .......... .......... .......... ..........  5%  241K 39s
+   400K .......... .......... .......... .......... ..........  5%  897K 36s
+   450K .......... .......... .......... .......... ..........  6%  275K 34s
+   500K .......... .......... .......... .......... ..........  7% 8.35M 31s
+   550K .......... .......... .......... .......... ..........  7% 1.07M 29s
+   600K .......... .......... .......... .......... ..........  8%  257K 29s
+   650K .......... .......... .......... .......... ..........  9% 5.54M 26s
+   700K .......... .......... .......... .......... ..........  9% 11.3M 25s
+   750K .......... .......... .......... .......... .......... 10%  246K 25s
+   800K .......... .......... .......... .......... .......... 11% 2.03M 23s
+   850K .......... .......... .......... .......... .......... 11% 5.73M 22s
+   900K .......... .......... .......... .......... .......... 12% 6.69M 21s
+   950K .......... .......... .......... .......... .......... 13%  254K 21s
+  1000K .......... .......... .......... .......... .......... 13% 2.55M 20s
+  1050K .......... .......... .......... .......... .......... 14% 7.14M 19s
+  1100K .......... .......... .......... .......... .......... 14% 3.10M 18s
+  1150K .......... .......... .......... .......... .......... 15% 7.59M 17s
+  1200K .......... .......... .......... .......... .......... 16%  248K 17s
+  1250K .......... .......... .......... .......... .......... 16% 4.82M 16s
+  1300K .......... .......... .......... .......... .......... 17% 10.1M 16s
+  1350K .......... .......... .......... .......... .......... 18% 3.07M 15s
+  1400K .......... .......... .......... .......... .......... 18% 5.95M 15s
+  1450K .......... .......... .......... .......... .......... 19% 5.45M 14s
+  1500K .......... .......... .......... .......... .......... 20%  286K 14s
+  1550K .......... .......... .......... .......... .......... 20% 3.17M 14s
+  1600K .......... .......... .......... .......... .......... 21% 4.60M 13s
+  1650K .......... .......... .......... .......... .......... 22% 6.24M 13s
+  1700K .......... .......... .......... .......... .......... 22% 3.84M 12s
+  1750K .......... .......... .......... .......... .......... 23% 2.40M 12s
+  1800K .......... .......... .......... .......... .......... 24% 4.72M 11s
+  1850K .......... .......... .......... .......... .......... 24%  410K 11s
+  1900K .......... .......... .......... .......... .......... 25% 1.31M 11s
+  1950K .......... .......... .......... .......... .......... 26% 1.69M 11s
+  2000K .......... .......... .......... .......... .......... 26% 4.93M 11s
+  2050K .......... .......... .......... .......... .......... 27%  127M 10s
+  2100K .......... .......... .......... .......... .......... 28% 5.64M 10s
+  2150K .......... .......... .......... .......... .......... 28% 9.05M 10s
+  2200K .......... .......... .......... .......... .......... 29% 1.62M 9s
+  2250K .......... .......... .......... .......... .......... 29% 4.73M 9s
+  2300K .......... .......... .......... .......... .......... 30% 7.67M 9s
+  2350K .......... .......... .......... .......... .......... 31%  360K 9s
+  2400K .......... .......... .......... .......... .......... 31%  624K 9s
+  2450K .......... .......... .......... .......... .......... 32% 54.2M 9s
+  2500K .......... .......... .......... .......... .......... 33% 18.7M 8s
+  2550K .......... .......... .......... .......... .......... 33%  173K 9s
+  2600K .......... .......... .......... .......... .......... 34% 24.1M 8s
+  2650K .......... .......... .......... .......... .......... 35% 5.09M 8s
+  2700K .......... .......... .......... .......... .......... 35% 6.62M 8s
+  2750K .......... .......... .......... .......... .......... 36% 9.95M 8s
+  2800K .......... .......... .......... .......... .......... 37% 21.1M 8s
+  2850K .......... .......... .......... .......... .......... 37% 68.4M 7s
+  2900K .......... .......... .......... .......... .......... 38% 33.5M 7s
+  2950K .......... .......... .......... .......... .......... 39%  132M 7s
+  3000K .......... .......... .......... .......... .......... 39% 13.9M 7s
+  3050K .......... .......... .......... .......... .......... 40% 11.9M 7s
+  3100K .......... .......... .......... .......... .......... 41% 18.8M 6s
+  3150K .......... .......... .......... .......... .......... 41% 88.3M 6s
+  3200K .......... .......... .......... .......... .......... 42% 19.6M 6s
+  3250K .......... .......... .......... .......... .......... 42% 23.0M 6s
+  3300K .......... .......... .......... .......... .......... 43% 27.7M 6s
+  3350K .......... .......... .......... .......... .......... 44%  102M 6s
+  3400K .......... .......... .......... .......... .......... 44% 21.3M 5s
+  3450K .......... .......... .......... .......... .......... 45% 41.3M 5s
+  3500K .......... .......... .......... .......... .......... 46%  212K 5s
+  3550K .......... .......... .......... .......... .......... 46%  374K 5s
+  3600K .......... .......... .......... .......... .......... 47% 2.31M 5s
+  3650K .......... .......... .......... .......... .......... 48% 4.08M 5s
+  3700K .......... .......... .......... .......... .......... 48% 3.01M 5s
+  3750K .......... .......... .......... .......... .......... 49% 5.24M 5s
+  3800K .......... .......... .......... .......... .......... 50%  110M 5s
+  3850K .......... .......... .......... .......... .......... 50%  113K 5s
+  3900K .......... .......... .......... .......... .......... 51% 19.6M 5s
+  3950K .......... .......... .......... .......... .......... 52% 1.47M 5s
+  4000K .......... .......... .......... .......... .......... 52% 1.60M 5s
+  4050K .......... .......... .......... .......... .......... 53% 4.34M 5s
+  4100K .......... .......... .......... .......... .......... 54% 54.9M 5s
+  4150K .......... .......... .......... .......... .......... 54% 52.0M 4s
+  4200K .......... .......... .......... .......... .......... 55% 66.6M 4s
+  4250K .......... .......... .......... .......... .......... 56%  103M 4s
+  4300K .......... .......... .......... .......... .......... 56% 71.3M 4s
+  4350K .......... .......... .......... .......... .......... 57% 99.7M 4s
+  4400K .......... .......... .......... .......... .......... 57% 62.1M 4s
+  4450K .......... .......... .......... .......... .......... 58% 50.5M 4s
+  4500K .......... .......... .......... .......... .......... 59% 55.9M 4s
+  4550K .......... .......... .......... .......... .......... 59% 73.3M 4s
+  4600K .......... .......... .......... .......... .......... 60% 92.1M 4s
+  4650K .......... .......... .......... .......... .......... 61% 72.5M 3s
+  4700K .......... .......... .......... .......... .......... 61% 54.9M 3s
+  4750K .......... .......... .......... .......... .......... 62%  358K 3s
+  4800K .......... .......... .......... .......... .......... 63% 1.38M 3s
+  4850K .......... .......... .......... .......... .......... 63% 4.36M 3s
+  4900K .......... .......... .......... .......... .......... 64% 3.68M 3s
+  4950K .......... .......... .......... .......... .......... 65% 9.36M 3s
+  5000K .......... .......... .......... .......... .......... 65% 2.34M 3s
+  5050K .......... .......... .......... .......... .......... 66%  781K 3s
+  5100K .......... .......... .......... .......... .......... 67%  462K 3s
+  5150K .......... .......... .......... .......... .......... 67% 1.96M 3s
+  5200K .......... .......... .......... .......... .......... 68% 4.01M 3s
+  5250K .......... .......... .......... .......... .......... 69% 1.54M 3s
+  5300K .......... .......... .......... .......... .......... 69%  127M 3s
+  5350K .......... .......... .......... .......... .......... 70% 5.85M 2s
+  5400K .......... .......... .......... .......... .......... 70%  319K 2s
+  5450K .......... .......... .......... .......... .......... 71% 27.0M 2s
+  5500K .......... .......... .......... .......... .......... 72% 1.61M 2s
+  5550K .......... .......... .......... .......... .......... 72%  765K 2s
+  5600K .......... .......... .......... .......... .......... 73%  110M 2s
+  5650K .......... .......... .......... .......... .......... 74%  140M 2s
+  5700K .......... .......... .......... .......... .......... 74% 62.3M 2s
+  5750K .......... .......... .......... .......... .......... 75%  334K 2s
+  5800K .......... .......... .......... .......... .......... 76% 2.28M 2s
+  5850K .......... .......... .......... .......... .......... 76%  826K 2s
+  5900K .......... .......... .......... .......... .......... 77% 4.00M 2s
+  5950K .......... .......... .......... .......... .......... 78%  104M 2s
+  6000K .......... .......... .......... .......... .......... 78% 51.2M 2s
+  6050K .......... .......... .......... .......... .......... 79% 7.03M 2s
+  6100K .......... .......... .......... .......... .......... 80%  373K 2s
+  6150K .......... .......... .......... .......... .......... 80% 9.47M 2s
+  6200K .......... .......... .......... .......... .......... 81%  940K 2s
+  6250K .......... .......... .......... .......... .......... 82% 5.34M 1s
+  6300K .......... .......... .......... .......... .......... 82% 3.56M 1s
+  6350K .......... .......... .......... .......... .......... 83% 4.29M 1s
+  6400K .......... .......... .......... .......... .......... 84% 6.75M 1s
+  6450K .......... .......... .......... .......... .......... 84%  351K 1s
+  6500K .......... .......... .......... .......... .......... 85%  120M 1s
+  6550K .......... .......... .......... .......... .......... 85%  638K 1s
+  6600K .......... .......... .......... .......... .......... 86% 3.23M 1s
+  6650K .......... .......... .......... .......... .......... 87% 80.8M 1s
+  6700K .......... .......... .......... .......... .......... 87% 6.18M 1s
+  6750K .......... .......... .......... .......... .......... 88% 35.0M 1s
+  6800K .......... .......... .......... .......... .......... 89%  324K 1s
+  6850K .......... .......... .......... .......... .......... 89% 9.17M 1s
+  6900K .......... .......... .......... .......... .......... 90% 66.8M 1s
+  6950K .......... .......... .......... .......... .......... 91%  816K 1s
+  7000K .......... .......... .......... .......... .......... 91% 1.57M 1s
+  7050K .......... .......... .......... .......... .......... 92% 7.37M 1s
+  7100K .......... .......... .......... .......... .......... 93% 4.10M 1s
+  7150K .......... .......... .......... .......... .......... 93% 12.9M 0s
+  7200K .......... .......... .......... .......... .......... 94%  472K 0s
+  7250K .......... .......... .......... .......... .......... 95% 31.4M 0s
+  7300K .......... .......... .......... .......... .......... 95%  717K 0s
+  7350K .......... .......... .......... .......... .......... 96% 18.1M 0s
+  7400K .......... .......... .......... .......... .......... 97%  855K 0s
+  7450K .......... .......... .......... .......... .......... 97% 23.6M 0s
+  7500K .......... .......... .......... .......... .......... 98% 23.3M 0s
+  7550K .......... .......... .......... .......... .......... 98%  961K 0s
+  7600K .......... .......... .......... .......... .......... 99% 1.13M 0s
+  7650K .......... .......... .......                         100%  115M=7.5s
+
+2018-12-25 10:20:39 (1024 KB/s) - ‘website.zip’ saved [7861350/7861350]
+
+Archive:  website.zip
+  inflating: 2112_brunch/contact-page.html  
+  inflating: 2112_brunch/css/bootstrap-theme.css  
+  inflating: 2112_brunch/css/bootstrap-theme.css.map  
+  inflating: 2112_brunch/css/bootstrap-theme.min.css  
+  inflating: 2112_brunch/css/bootstrap.css  
+  inflating: 2112_brunch/css/bootstrap.css.map  
+  inflating: 2112_brunch/css/bootstrap.min.css  
+  inflating: 2112_brunch/css/datepicker.css  
+  inflating: 2112_brunch/css/fontAwesome.css  
+  inflating: 2112_brunch/css/fonts/flexslider-icon.eot  
+  inflating: 2112_brunch/css/fonts/flexslider-icon.svg  
+  inflating: 2112_brunch/css/fonts/flexslider-icon.ttf  
+  inflating: 2112_brunch/css/fonts/flexslider-icon.woff  
+  inflating: 2112_brunch/css/hero-slider.css  
+  inflating: 2112_brunch/css/owl-carousel.css  
+  inflating: 2112_brunch/css/tooplate-style.css  
+  inflating: 2112_brunch/fonts/fontawesome-webfont.eot  
+  inflating: 2112_brunch/fonts/fontawesome-webfont.svg  
+  inflating: 2112_brunch/fonts/fontawesome-webfont.ttf  
+  inflating: 2112_brunch/fonts/fontawesome-webfont.woff  
+  inflating: 2112_brunch/fonts/fontawesome-webfont.woff2  
+  inflating: 2112_brunch/fonts/FontAwesome.otf  
+  inflating: 2112_brunch/fonts/glyphicons-halflings-regular.eot  
+  inflating: 2112_brunch/fonts/glyphicons-halflings-regular.svg  
+  inflating: 2112_brunch/fonts/glyphicons-halflings-regular.ttf  
+  inflating: 2112_brunch/fonts/glyphicons-halflings-regular.woff  
+  inflating: 2112_brunch/generic-page.html  
+  inflating: 2112_brunch/img/center-image.png  
+  inflating: 2112_brunch/img/left-image-post.png  
+  inflating: 2112_brunch/img/right-image-post.png  
+  inflating: 2112_brunch/img/template-author.png  
+  inflating: 2112_brunch/img/template-image.png  
+  inflating: 2112_brunch/img/white-logo.png  
+  inflating: 2112_brunch/index.html  
+  inflating: 2112_brunch/js/datepicker.js  
+  inflating: 2112_brunch/js/main.js  
+  inflating: 2112_brunch/js/plugins.js  
+  inflating: 2112_brunch/js/vendor/bootstrap.js  
+  inflating: 2112_brunch/js/vendor/bootstrap.min.js  
+  inflating: 2112_brunch/js/vendor/jquery-1.11.2.min.js  
+  inflating: 2112_brunch/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js  
+  inflating: 2112_brunch/js/vendor/npm.js  
+  inflating: 2112_brunch/prepros-6.config  
+  inflating: 2112_brunch/videos/highway-loop.mp4  
+################################################################
+
+
+Restarting Service
+################################################################
+2112_brunch
+https://www.tooplate.com/download/2112_brunch
+################################################################
+Debian based system detected.
+################################################################
+
+
+Installing Packages
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+unzip is already the newest version (6.0-20ubuntu1).
+apache2 is already the newest version (2.4.18-2ubuntu3.9).
+wget is already the newest version (1.17.1-1ubuntu1.4).
+0 upgraded, 0 newly installed, 0 to remove and 7 not upgraded.
+################################################################
+
+
+Starting and Enabling Service
+apache2.service is not a native service, redirecting to systemd-sysv-install
+Executing /lib/systemd/systemd-sysv-install enable apache2
+################################################################
+
+
+Copying website data
+--2018-12-25 10:25:39--  https://www.tooplate.com/download/2112_brunch
+Resolving www.tooplate.com (www.tooplate.com)... 67.227.140.19
+Connecting to www.tooplate.com (www.tooplate.com)|67.227.140.19|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://www.tooplate.com/zip-templates/2112_brunch.zip [following]
+--2018-12-25 10:25:40--  https://www.tooplate.com/zip-templates/2112_brunch.zip
+Connecting to www.tooplate.com (www.tooplate.com)|67.227.140.19|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 7861350 (7.5M) [application/zip]
+Saving to: ‘website.zip’
+
+     0K .......... .......... .......... .......... ..........  0% 71.5K 1m47s
+    50K .......... .......... .......... .......... ..........  1%  217K 70s
+   100K .......... .......... .......... .......... ..........  1%  204K 59s
+   150K .......... .......... .......... .......... ..........  2%  223K 52s
+   200K .......... .......... .......... .......... ..........  3% 3.86M 42s
+   250K .......... .......... .......... .......... ..........  3%  223K 40s
+   300K .......... .......... .......... .......... ..........  4%  215K 39s
+   350K .......... .......... .......... .......... ..........  5% 11.0M 34s
+   400K .......... .......... .......... .......... ..........  5%  224K 34s
+   450K .......... .......... .......... .......... ..........  6% 3.01M 30s
+   500K .......... .......... .......... .......... ..........  7% 70.8M 27s
+   550K .......... .......... .......... .......... ..........  7%  238K 27s
+   600K .......... .......... .......... .......... ..........  8% 1.92M 25s
+   650K .......... .......... .......... .......... ..........  9% 35.6M 23s
+   700K .......... .......... .......... .......... ..........  9%  245K 24s
+   750K .......... .......... .......... .......... .......... 10% 4.05M 22s
+   800K .......... .......... .......... .......... .......... 11% 2.06M 21s
+   850K .......... .......... .......... .......... .......... 11% 5.50M 20s
+   900K .......... .......... .......... .......... .......... 12%  257K 20s
+   950K .......... .......... .......... .......... .......... 13% 7.91M 19s
+  1000K .......... .......... .......... .......... .......... 13% 2.43M 18s
+  1050K .......... .......... .......... .......... .......... 14% 3.62M 17s
+  1100K .......... .......... .......... .......... .......... 14% 18.0M 16s
+  1150K .......... .......... .......... .......... .......... 15%  254K 16s
+  1200K .......... .......... .......... .......... .......... 16% 14.2M 16s
+  1250K .......... .......... .......... .......... .......... 16% 5.86M 15s
+  1300K .......... .......... .......... .......... .......... 17% 4.22M 14s
+  1350K .......... .......... .......... .......... .......... 18% 2.98M 14s
+  1400K .......... .......... .......... .......... .......... 18% 12.9M 13s
+  1450K .......... .......... .......... .......... .......... 19%  254K 13s
+  1500K .......... .......... .......... .......... .......... 20% 14.2M 13s
+  1550K .......... .......... .......... .......... .......... 20% 33.8M 12s
+  1600K .......... .......... .......... .......... .......... 21% 5.94M 12s
+  1650K .......... .......... .......... .......... .......... 22% 5.50M 12s
+  1700K .......... .......... .......... .......... .......... 22% 4.34M 11s
+  1750K .......... .......... .......... .......... .......... 23% 4.67M 11s
+  1800K .......... .......... .......... .......... .......... 24%  325K 11s
+  1850K .......... .......... .......... .......... .......... 24% 1.26M 11s
+  1900K .......... .......... .......... .......... .......... 25% 38.7M 10s
+  1950K .......... .......... .......... .......... .......... 26% 44.4M 10s
+  2000K .......... .......... .......... .......... .......... 26% 5.65M 10s
+  2050K .......... .......... .......... .......... .......... 27% 5.81M 9s
+  2100K .......... .......... .......... .......... .......... 28% 6.00M 9s
+  2150K .......... .......... .......... .......... .......... 28% 8.38M 9s
+  2200K .......... .......... .......... .......... .......... 29% 3.73M 9s
+  2250K .......... .......... .......... .......... .......... 29%  320K 9s
+  2300K .......... .......... .......... .......... .......... 30% 1.23M 9s
+  2350K .......... .......... .......... .......... .......... 31% 34.2M 8s
+  2400K .......... .......... .......... .......... .......... 31% 13.9M 8s
+  2450K .......... .......... .......... .......... .......... 32%  105M 8s
+  2500K .......... .......... .......... .......... .......... 33% 9.23M 8s
+  2550K .......... .......... .......... .......... .......... 33% 2.33M 7s
+  2600K .......... .......... .......... .......... .......... 34% 72.5M 7s
+  2650K .......... .......... .......... .......... .......... 35% 8.12M 7s
+  2700K .......... .......... .......... .......... .......... 35% 11.7M 7s
+  2750K .......... .......... .......... .......... .......... 36% 5.52M 7s
+  2800K .......... .......... .......... .......... .......... 37%  298K 7s
+  2850K .......... .......... .......... .......... .......... 37% 28.0M 7s
+  2900K .......... .......... .......... .......... .......... 38% 8.84M 6s
+  2950K .......... .......... .......... .......... .......... 39% 7.49M 6s
+  3000K .......... .......... .......... .......... .......... 39% 5.08M 6s
+  3050K .......... .......... .......... .......... .......... 40% 8.32M 6s
+  3100K .......... .......... .......... .......... .......... 41% 4.58M 6s
+  3150K .......... .......... .......... .......... .......... 41% 8.34M 6s
+  3200K .......... .......... .......... .......... .......... 42% 5.61M 5s
+  3250K .......... .......... .......... .......... .......... 42% 6.51M 5s
+  3300K .......... .......... .......... .......... .......... 43% 5.91M 5s
+  3350K .......... .......... .......... .......... .......... 44% 4.07M 5s
+  3400K .......... .......... .......... .......... .......... 44%  436K 5s
+  3450K .......... .......... .......... .......... .......... 45% 2.29M 5s
+  3500K .......... .......... .......... .......... .......... 46%  474K 5s
+  3550K .......... .......... .......... .......... .......... 46% 14.6M 5s
+  3600K .......... .......... .......... .......... .......... 47% 15.7M 5s
+  3650K .......... .......... .......... .......... .......... 48%  184K 5s
+  3700K .......... .......... .......... .......... .......... 48% 39.4M 5s
+  3750K .......... .......... .......... .......... .......... 49% 1.90M 5s
+  3800K .......... .......... .......... .......... .......... 50% 8.52M 5s
+  3850K .......... .......... .......... .......... .......... 50% 71.9M 4s
+  3900K .......... .......... .......... .......... .......... 51% 2.70M 4s
+  3950K .......... .......... .......... .......... .......... 52% 31.1M 4s
+  4000K .......... .......... .......... .......... .......... 52% 63.5M 4s
+  4050K .......... .......... .......... .......... .......... 53% 2.46M 4s
+  4100K .......... .......... .......... .......... .......... 54%  458K 4s
+  4150K .......... .......... .......... .......... .......... 54% 3.32M 4s
+  4200K .......... .......... .......... .......... .......... 55% 22.7M 4s
+  4250K .......... .......... .......... .......... .......... 56% 16.4M 4s
+  4300K .......... .......... .......... .......... .......... 56% 10.2M 4s
+  4350K .......... .......... .......... .......... .......... 57% 58.6M 4s
+  4400K .......... .......... .......... .......... .......... 57% 14.0M 3s
+  4450K .......... .......... .......... .......... .......... 58% 19.0M 3s
+  4500K .......... .......... .......... .......... .......... 59% 16.3M 3s
+  4550K .......... .......... .......... .......... .......... 59% 29.8M 3s
+  4600K .......... .......... .......... .......... .......... 60% 24.7M 3s
+  4650K .......... .......... .......... .......... .......... 61% 16.1M 3s
+  4700K .......... .......... .......... .......... .......... 61% 8.79M 3s
+  4750K .......... .......... .......... .......... .......... 62% 48.7M 3s
+  4800K .......... .......... .......... .......... .......... 63% 6.70M 3s
+  4850K .......... .......... .......... .......... .......... 63% 28.1M 3s
+  4900K .......... .......... .......... .......... .......... 64% 85.1M 3s
+  4950K .......... .......... .......... .......... .......... 65%  130M 3s
+  5000K .......... .......... .......... .......... .......... 65% 19.8M 3s
+  5050K .......... .......... .......... .......... .......... 66% 49.7M 2s
+  5100K .......... .......... .......... .......... .......... 67% 18.7M 2s
+  5150K .......... .......... .......... .......... .......... 67% 1.40M 2s
+  5200K .......... .......... .......... .......... .......... 68% 5.35M 2s
+  5250K .......... .......... .......... .......... .......... 69% 4.82M 2s
+  5300K .......... .......... .......... .......... .......... 69%  147K 2s
+  5350K .......... .......... .......... .......... .......... 70% 4.24M 2s
+  5400K .......... .......... .......... .......... .......... 70% 4.79M 2s
+  5450K .......... .......... .......... .......... .......... 71% 11.5M 2s
+  5500K .......... .......... .......... .......... .......... 72% 51.0M 2s
+  5550K .......... .......... .......... .......... .......... 72% 17.4M 2s
+  5600K .......... .......... .......... .......... .......... 73% 17.9M 2s
+  5650K .......... .......... .......... .......... .......... 74% 25.1M 2s
+  5700K .......... .......... .......... .......... .......... 74% 19.0M 2s
+  5750K .......... .......... .......... .......... .......... 75% 7.62M 2s
+  5800K .......... .......... .......... .......... .......... 76% 61.9M 2s
+  5850K .......... .......... .......... .......... .......... 76% 18.5M 2s
+  5900K .......... .......... .......... .......... .......... 77% 45.8M 2s
+  5950K .......... .......... .......... .......... .......... 78% 60.4M 1s
+  6000K .......... .......... .......... .......... .......... 78% 41.7M 1s
+  6050K .......... .......... .......... .......... .......... 79% 17.1M 1s
+  6100K .......... .......... .......... .......... .......... 80% 32.5M 1s
+  6150K .......... .......... .......... .......... .......... 80% 32.9M 1s
+  6200K .......... .......... .......... .......... .......... 81%  587K 1s
+  6250K .......... .......... .......... .......... .......... 82% 2.14M 1s
+  6300K .......... .......... .......... .......... .......... 82% 11.1M 1s
+  6350K .......... .......... .......... .......... .......... 83% 8.50M 1s
+  6400K .......... .......... .......... .......... .......... 84% 4.44M 1s
+  6450K .......... .......... .......... .......... .......... 84% 1.08M 1s
+  6500K .......... .......... .......... .......... .......... 85% 1.67M 1s
+  6550K .......... .......... .......... .......... .......... 85% 3.01M 1s
+  6600K .......... .......... .......... .......... .......... 86% 3.61M 1s
+  6650K .......... .......... .......... .......... .......... 87%  471K 1s
+  6700K .......... .......... .......... .......... .......... 87% 4.96M 1s
+  6750K .......... .......... .......... .......... .......... 88% 11.7M 1s
+  6800K .......... .......... .......... .......... .......... 89% 5.54M 1s
+  6850K .......... .......... .......... .......... .......... 89% 1.39M 1s
+  6900K .......... .......... .......... .......... .......... 90% 1.89M 1s
+  6950K .......... .......... .......... .......... .......... 91% 1.80M 1s
+  7000K .......... .......... .......... .......... .......... 91% 4.54M 1s
+  7050K .......... .......... .......... .......... .......... 92%  510K 0s
+  7100K .......... .......... .......... .......... .......... 93% 2.49M 0s
+  7150K .......... .......... .......... .......... .......... 93% 5.39M 0s
+  7200K .......... .......... .......... .......... .......... 94% 4.65M 0s
+  7250K .......... .......... .......... .......... .......... 95% 2.58M 0s
+  7300K .......... .......... .......... .......... .......... 95% 2.50M 0s
+  7350K .......... .......... .......... .......... .......... 96% 1.26M 0s
+  7400K .......... .......... .......... .......... .......... 97% 4.94M 0s
+  7450K .......... .......... .......... .......... .......... 97%  595K 0s
+  7500K .......... .......... .......... .......... .......... 98% 1.81M 0s
+  7550K .......... .......... .......... .......... .......... 98% 2.40M 0s
+  7600K .......... .......... .......... .......... .......... 99% 3.87M 0s
+  7650K .......... .......... .......                         100% 19.7M=6.1s
+
+2018-12-25 10:25:47 (1.23 MB/s) - ‘website.zip’ saved [7861350/7861350]
+
+Archive:  website.zip
+  inflating: 2112_brunch/contact-page.html  
+  inflating: 2112_brunch/css/bootstrap-theme.css  
+  inflating: 2112_brunch/css/bootstrap-theme.css.map  
+  inflating: 2112_brunch/css/bootstrap-theme.min.css  
+  inflating: 2112_brunch/css/bootstrap.css  
+  inflating: 2112_brunch/css/bootstrap.css.map  
+  inflating: 2112_brunch/css/bootstrap.min.css  
+  inflating: 2112_brunch/css/datepicker.css  
+  inflating: 2112_brunch/css/fontAwesome.css  
+  inflating: 2112_brunch/css/fonts/flexslider-icon.eot  
+  inflating: 2112_brunch/css/fonts/flexslider-icon.svg  
+  inflating: 2112_brunch/css/fonts/flexslider-icon.ttf  
+  inflating: 2112_brunch/css/fonts/flexslider-icon.woff  
+  inflating: 2112_brunch/css/hero-slider.css  
+  inflating: 2112_brunch/css/owl-carousel.css  
+  inflating: 2112_brunch/css/tooplate-style.css  
+  inflating: 2112_brunch/fonts/fontawesome-webfont.eot  
+  inflating: 2112_brunch/fonts/fontawesome-webfont.svg  
+  inflating: 2112_brunch/fonts/fontawesome-webfont.ttf  
+  inflating: 2112_brunch/fonts/fontawesome-webfont.woff  
+  inflating: 2112_brunch/fonts/fontawesome-webfont.woff2  
+  inflating: 2112_brunch/fonts/FontAwesome.otf  
+  inflating: 2112_brunch/fonts/glyphicons-halflings-regular.eot  
+  inflating: 2112_brunch/fonts/glyphicons-halflings-regular.svg  
+  inflating: 2112_brunch/fonts/glyphicons-halflings-regular.ttf  
+  inflating: 2112_brunch/fonts/glyphicons-halflings-regular.woff  
+  inflating: 2112_brunch/generic-page.html  
+  inflating: 2112_brunch/img/center-image.png  
+  inflating: 2112_brunch/img/left-image-post.png  
+  inflating: 2112_brunch/img/right-image-post.png  
+  inflating: 2112_brunch/img/template-author.png  
+  inflating: 2112_brunch/img/template-image.png  
+  inflating: 2112_brunch/img/white-logo.png  
+  inflating: 2112_brunch/index.html  
+  inflating: 2112_brunch/js/datepicker.js  
+  inflating: 2112_brunch/js/main.js  
+  inflating: 2112_brunch/js/plugins.js  
+  inflating: 2112_brunch/js/vendor/bootstrap.js  
+  inflating: 2112_brunch/js/vendor/bootstrap.min.js  
+  inflating: 2112_brunch/js/vendor/jquery-1.11.2.min.js  
+  inflating: 2112_brunch/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js  
+  inflating: 2112_brunch/js/vendor/npm.js  
+  inflating: 2112_brunch/prepros-6.config  
+  inflating: 2112_brunch/videos/highway-loop.mp4  
+################################################################
+
+
+Restarting Service
+################################################################

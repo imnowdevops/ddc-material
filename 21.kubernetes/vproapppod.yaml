@@ -1,0 +1,14 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: vproapp
+  labels:
+    app: vproapp
+spec:
+  containers:
+    - name: appcontainer
+      image: imranvisualpath/freshtomapp:V7
+      ports:
+        - name: vproapp-port
+          containerPort: 8080

@@ -1,0 +1,98 @@
+---
+- name: Provisioning Server 
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install NTP on Centos 
+      yum:
+        name: "{{item}}"
+        state: present
+      when: ansible_distribution == "CentOS"
+      loop:
+        - ntp
+        - wget
+        - git
+        - zip
+        - unzip
+
+    - name: Install NTP on Ubuntu
+      apt:
+         name: "{{item}}"
+         state: present
+         update_cache: yes
+      when: ansible_distribution == "Ubuntu"
+      loop:
+        - ntp
+        - wget
+        - git
+        - zip
+        - unzip
+
+    - name: Start & enable NTP on Redhat
+      service:
+        name: ntpd
+        state: started
+        enabled: yes
+      when: ansible_os_family == "RedHat"
+
+    - name: Start & enable NTP on Debian
+      service:
+        name: ntp
+        state: started
+        enabled: yes
+      when: ansible_os_family == "Debian"
+
+    - name: Add group
+      group:
+         name: devops
+         state: present
+
+    - name: Add users
+      user:
+          name: "{{item}}"
+          state: present
+          groups: devops
+      loop: "{{usernames}}"
+
+    - name: Banner file /etc/motd
+      copy:
+        content: "This {{ansible_distribution}} is Managed by Ansible.\n"
+        dest: /etc/motd
+
+    - name: Deploy NTP conf file for RedHat
+      template:
+         src: templates/ntp_redhat.conf.j2
+         dest: /etc/ntp.conf
+      when: ansible_os_family == "RedHat"
+      notify:
+        - Restart NTP on Redhat
+
+    - name: Deploy NTP conf file for Debian
+      template:
+         src: templates/ntp_debian.conf.j2
+         dest: /etc/ntp.conf
+      when: ansible_os_family == "Debian"
+      notify:
+        - Restart NTP on Debian
+
+    - name: Dir for dev data
+      file:
+        path: /opt/devdata
+        state: directory
+        mode: 0775
+
+  handlers:  
+    - name: Restart NTP on Redhat
+      service:
+        name: ntpd
+        state: restarted
+        enabled: yes
+      when: ansible_os_family == "RedHat"
+
+    - name: Restart NTP on Debian
+      service:
+         name: ntp
+         state: restarted
+         enabled: yes
+      when: ansible_os_family == "Debian"
+

@@ -1,0 +1,75 @@
+181  uptime
+  182  cat /etc/passwd
+  183  clear
+  184  uptime > /tmp/sysinfo.txt
+  185  cat /tmp/sysinfo.txt
+  186  ls
+  187  ls > /tmp/sysinfo.txt
+  188  cat /tmp/sysinfo.txt
+  189  uptime >> /tmp/sysinfo.txt
+  190  cat /tmp/sysinfo.txt
+  191  clear
+  192  uptime
+  193  free -m
+  194  df -h
+  195  echo "Good Morning"
+  196  echo "########################################" > /tmp/sysinfo.txt
+  197  date > /tmp/sysinfo.txt
+  198  echo "########################################" >> /tmp/sysinfo.txt
+  199  uptime >> /tmp/sysinfo.txt
+  200  echo "########################################" >> /tmp/sysinfo.txt
+  201  free -m >> /tmp/sysinfo.txt
+  202  echo "########################################" >> /tmp/sysinfo.txt
+  203  df -h >> /tmp/sysinfo.txt
+  204  echo "########################################" >> /tmp/sysinfo.txt
+  205  cat /tmp/sysinfo.txt
+  206  clear
+  207  yum install vim -y > /dev/null
+  208  cat /dev/null
+  209  cat /tmp/sysinfo.txt
+  210  cat /dev/null > /tmp/sysinfo.txt
+  211  cat /tmp/sysinfo.txt
+  212  clear
+  213  free -m > /dev/null
+  214  freeeee -m > /dev/null
+  215  freeeee -m 2>> /tmp//error.log
+  216  cat /tmp/error.log
+  217  free -m 1>> /tmp//error.log
+  218  cat /tmp/error.log
+  219  free -m &>> /tmp//error.log
+  220  freesdsd -m &>> /tmp//error.log
+  221  cat /tmp/error.log
+  222  cd /var/log/
+  223  ls
+  224  cd
+  225  clear
+  226  wc -l /etc/passwd
+  227  wc -l < /etc/passwd
+  228  clear
+  229  cd /etc/
+  230  ls
+  231  clear
+  232  ls | wc -l
+  233  ls | grep host*
+  234* ls | grep host*
+  235  clear
+  236  ls | wc -l
+  237  ls | grep host*
+  238  ls | grep host
+  239  tail /var/log/messages | grep -i vagrant
+  240  tail -20 /var/log/messages | grep -i vagrant
+  241  free -m
+  242  free -m | grep Mem
+  243  ls -l | tail
+  244  ls -l | head
+  245  clear
+  246  cd
+  247  find /etc -name host*
+  248  find / -name host*
+  249  clear
+  250  locate
+  251  yum install mlocate -y
+  252  clear
+  253  updatedb
+  254  locate host
+  255  clear

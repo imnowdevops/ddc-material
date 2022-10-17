@@ -1,0 +1,52 @@
+vim deployment.yaml
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.14.2
+        ports:
+        - containerPort: 80
+
+kubectl apply -f deployment.yaml
+
+kubectl get deploy
+kubectl get rs
+kubectl get pod
+
+kubectl describe pod nginx-deployment-9456bbbf9-dx5s5
+clear
+
+kubectl set image deployment.v1.apps/nginx-deployment nginx=nginx:1.16.1
+kubectl get deploy
+
+kubectl describe pod nginx-deployment-ff6655784-2bn9t
+clear
+
+kubectl get rs
+
+kubectl rollout undo deployment/nginx-deployment
+kubectl get rs
+kubectl get pod
+
+kubectl describe pod nginx-deployment-9456bbbf9-8xhw6 | grep Image
+
+kubectl rollout history deployment/nginx-deployment
+clear
+
+kubectl get deploy
+kubectl delete deploy nginx-deployment

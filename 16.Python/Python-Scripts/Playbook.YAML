@@ -1,0 +1,16 @@
+- hosts: websrvgrp
+  tasks:
+  - name: Install Apache
+    yum:
+      name: httpd
+      state: latest
+  - name: Deploy Config
+    copy:
+      src: file/httpd.conf
+      dest: /etc/httpd.conf
+- hosts: dbsrvgrp
+  tasks:
+  - name: Install Postgresql
+    yum:
+      name: postgresql
+      state: latest

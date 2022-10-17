@@ -1,0 +1,61 @@
+1  sudo apt update
+    2  clear
+    3  sudo apt update
+    4  sudo apt install git -y
+    5  git clone https://github.com/devopshydclub/vprofile-repo.git
+    6  ls
+    7  cd vprofile-repo/
+    8  clear
+    9  ls
+   10  git checkout vp-rem
+   11  ls
+   12  sudo apt search jdk
+   13  clear
+   14  sudo apt install openjdk-8-jdk -y
+   15  clear
+   16  jave -version
+   17  java -version
+   18  sudo apt install maven -y
+   19  clear
+   20  mvn -version
+   21  ls
+   22  mvn test
+   23  ls
+   24  ls target/
+   25  mvn install
+   26  ls
+   27  ls target/
+   28  ls
+   29  rm -rf target
+   30  ls
+   31  mvn install
+   32  ls /home/ubuntu/.m2/repository/
+   33  clear
+   34  mvn clean
+   35  ls
+   36  clear
+   37  mvn install
+   38  clear
+   39  mvn clean
+   40  ls
+   41  mvn clean install
+   42  clean
+   43  clear
+   44  ls
+   45  mvn -version
+   46  cd
+   47  wget https://archive.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
+   48  ls
+   49  pwd
+   50  tar xzvf apache-maven-3.3.9-bin.tar.gz
+   51  clear
+   52  ls
+   53  sudo mv apache-maven-3.3.9 /opt/
+   54  ls /opt/apache-maven-3.3.9/
+   55  ls /opt/apache-maven-3.3.9/bin/
+   56  /opt/apache-maven-3.3.9/bin/mvn -version
+   57  ls
+   58  cd vprofile-repo/
+   59  clear
+   60  ls
+   61  /opt/apache-maven-3.3.9/bin/mvn clean install

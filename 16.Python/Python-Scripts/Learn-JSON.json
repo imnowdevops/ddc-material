@@ -1,0 +1,39 @@
+Python Dictionary
+{"DevOps": [,"AWS", "Jenkins", "Python", "Ansible"], "Development": ["Java", "NodeJS", ".net"], "ansible_facts": { "python": "/usr/bin/python" }}
+
+JSON
+{
+  "DevOps":
+  [
+    "AWS",
+    "Jenkins",
+    "Python",
+    "Ansible"
+  ],
+  "Development":
+  [
+    "Java",
+    "NodeJS",
+    ".net"
+  ],
+  "ansible_facts":
+  {
+    "python": "/usr/bin/python"
+  }
+}
+
+YAML
+DevOps:
+- AWS
+- Jenkins
+- Python
+- Ansible
+
+Development:
+- Java
+- NodeJS
+- .net
+
+ansible_facts:
+  python: /usr/bin/python
+  version: 2.7

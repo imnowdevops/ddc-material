@@ -1,0 +1,98 @@
+476  cd /f/Bash_Scripts/
+  477  ls
+  478   vim remotexecmulti.sh
+  479   vim remotexecmulti.sh
+  480  vim MultiComRemExec.sh
+  481  clear
+  482  ls
+  483  cp remotexecmulti.sh remotexecmulti.sh_13123030_1040.bakup
+  484  ls
+  485  vim remotexecmulti.sh
+  486  cp remotexecmulti.sh_13123030_1040.bakup remotexecmulti.sh
+  487  vim remotexecmulti.sh
+  488  clear
+  489  ls
+  490  cp remotexecmulti.sh_14123030_1040.bakup remotexecmulti.sh
+  491  cp remotexecmulti.sh remotexecmulti.sh_14123030_1040.bakup
+  492  cp remotexecmulti.sh remotexecmulti.sh_12113030_1040.bakup
+  493  cp remotexecmulti.sh remotexecmulti.sh_12103030_1150.bakup
+  494  cp remotexecmulti.sh remotexecmulti.sh_05103030_1150.bakup
+  495  ls
+  496  tar
+  497  tar czvf remotexecmulti.Bakup *.bakup
+  498  ls
+  499  rm -rf *.bakup
+  500  ls
+  501  cd /f/gitrepos/titanwork/
+  502  rm -rf debug.log
+  503  rm -rf debug.log
+  504  git status
+  505  git merge sprint1
+  506  ls
+  507  git switch sprint1
+  508  ls
+  509  cd ..
+  510  ls
+  511  cd titanwork/
+  512  clear
+  513  git push --all origin
+  514  cd ..
+  515  rm -rf titanwork
+  516  clear
+  517  ls
+  518  git clone https://github.com/imranvisualpath/titanwork.git
+  519  ls
+  520  cd titanwork/
+  521  ls
+  522  ls
+  523  clear
+  524  ls
+  525  vim jupiter1.rb
+  526  cat jupiter1.rb
+  527  git checkout jupiter1.rb
+  528  cat jupiter1.rb
+  529  clear
+  530  vim jupiter1.rb
+  531  git status
+  532  git diff
+  533  git rm debug.log
+  534  clear
+  535  git diff
+  536  git status
+  537  git diff
+  538  git add.
+  539  git add .
+  540  git status
+  541  git diff
+  542  git diff --cached
+  543  git restore --staged jupiter1.rb
+  544  git status
+  545  git diff
+  546  git add .
+  547  git commit -m "playbook"
+  548  clear
+  549  git status
+  550  git diff
+  551  git diff --cached
+  552  git log --oneline
+  553  git diff 358d7f8..a886cb6
+  554  git revert HEAD
+  555  cat jupiter1.rb
+  556  git log --oneline
+  557  clear
+  558  git log --oneline
+  559  git reset --hard 358d7f8
+  560  git log --oneline
+  561  history
+  562  clear
+  563  cat .git/config
+  564  cd
+  565  rm -rf .ssh/*
+  566  ssh-keygen.exe
+  567  ls .ssh
+  568  ls .ssh/
+  569  cat .ssh/id_rsa.pub
+  570  cd /f/gitrepos/
+  571  git clone git@github.com:imranvisualpath/titanwork.git
+  572  rm -rf titanwork
+  573  git clone git@github.com:imranvisualpath/titanwork.git

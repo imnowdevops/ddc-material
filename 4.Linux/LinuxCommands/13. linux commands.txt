@@ -1,0 +1,46 @@
+1  whoami
+    2  pwd
+    3  ls
+    4  cat /etc/os-release
+    5  clear
+    6  useradd devops
+    7  su - devops
+    8  userdel -r devops
+    9  clear
+   10  adduser devops
+   11  id devops
+   12  clear
+   13  visudo
+   14  export EDITOR=vim
+   15  visudo
+   16  clear
+   17  wget http://archive.ubuntu.com/ubuntu/pool/universe/t/tree/tree_1.7.0-3_amd64.deb
+   18  ls
+   19  dpkg -i tree_1.7.0-3_amd64.deb
+   20  tree
+   21  dpkg -l
+   22  clear
+   23  dpkg -l | grep tree
+   24  dpkg -r tree
+   25  clear
+   26  cd /etc/apt/
+   27  ls
+   28  cat sources.list
+   29  clear
+   30  apt update
+   31  cd
+   32  clear
+   33  apt search tree
+   34  clear
+   35  apt install tree
+   36  clear
+   37  apt install apache2
+   38  systemctl status apache2
+   39  systemctl is-enabled apache2
+   40  clear
+   41  apt upgrade
+   42  apt remove apache2
+   43  clear
+   44  apt install apache2
+   45  apt purge apache2
+   46  clear

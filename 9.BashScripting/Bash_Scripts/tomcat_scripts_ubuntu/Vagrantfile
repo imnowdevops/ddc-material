@@ -1,0 +1,24 @@
+Vagrant.configure("2") do |config|
+
+  config.vm.define "scroldbox" do |scroldbox|
+    scroldbox.vm.box = "centos/6"
+	scroldbox.vm.hostname = "scroldbox"
+	scroldbox.vm.network "private_network", ip: "192.168.6.2"
+  end
+
+    config.vm.define "old_web01" do |old_web01|
+    old_web01.vm.box = "centos/6"
+	old_web01.vm.hostname = "old-web01"
+	old_web01.vm.network "private_network", ip: "192.168.6.3"
+	old_web01.vm.provider "virtualbox" do |vb|
+        vb.memory = "1600"
+	vb.cpus = 2
+        end
+    end
+  
+  config.vm.define "old_web02" do |old_web02|
+    old_web02.vm.box = "ubuntu/trusty64"
+	old_web02.vm.hostname = "old-web02"
+	old_web02.vm.network "private_network", ip: "192.168.6.5"
+  end
+end

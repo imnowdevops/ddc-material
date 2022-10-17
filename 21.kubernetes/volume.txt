@@ -1,0 +1,34 @@
+vim mysqlpod.yaml
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: dbpod
+spec:
+  containers:
+  - image: mysql:5.7
+    name: mysql
+    volumeMounts:
+    - mountPath: /var/lib/mysql
+      name: dbvol
+  volumes:
+  - name: dbvol
+    hostPath:
+      # directory location on host
+      path: /data
+      # this field is optional
+      type: DirectoryOrCreate
+
+
+
+kubectl apply -f mysqlpod.yaml
+kubectl get pod
+kubectl describe pod dbpod
+ls
+clear
+vim mysqlpod.yaml
+kubectl delete pod dbpod
+kubectl apply -f mysqlpod.yaml
+kubectl describe pod dbpod
+clear
+kubectl delete pod dbpod

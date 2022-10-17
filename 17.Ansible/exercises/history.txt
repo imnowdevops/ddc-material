@@ -1,0 +1,63 @@
+    1  clear
+    2  ansible --version
+    3  mkdir vprofile
+    4  cd vprofile/
+    5  ls
+    6  mkdir exercise1
+    7  ls
+    8  clear
+    9  cd
+   10  clear
+   11  cd vprofile/
+   12  ls
+   13  cd exercise1/
+   14  clear
+   15  sudo ls /etc/ansible/hosts 
+   16  vim inventory
+   17  clear
+   18  cd vprofile/exercise1/
+   19  vim vprofile-key.pem
+   20  ls -l
+   21  chmod 400 vprofile-key.pem 
+   22  vim inventory 
+   23  clear
+   24  ansible -i inventory -m ping web01
+   25  sudo vim /etc/ansible/ansible.cfg 
+   26  ansible -i inventory -m ping web01
+   27  ansible -i inventory -m ping web02
+   28  ansible -i inventory -m ping db01
+   29  clear
+   30  vim inventory 
+   31  ansible -i inventory -m ping websrvgrp
+   32  ansible -i inventory -m ping dbsrvgrp
+   33  ansible -i inventory -m ping dc_ohio
+   34  clear
+   35  ansible -i inventory -m ping all
+   36  ansible -i inventory -m ping '*'
+   37  clear
+   38  vim inventory 
+   39  ansible -i inventory -m ping '*'
+   40  cat inventory 
+   41  clear
+   42  cd ..
+   43  cp -r exercise1/ exercise2
+   44  cd exercise2/
+   45  ansible -i inventory -m ping all
+   46  clear
+   47  ansible -i inventory -m yum -a "name=httpd state=present" web01
+   48  tail -5 inventory 
+   49  ansible -i inventory -m yum -a "name=httpd state=present" web01 --become
+   50  clear
+   51  ansible -i inventory -m yum -a "name=httpd state=present" web01 --become
+   52  clear
+   53  ansible -i inventory -m service -a "name=httpd state=started enabled=yes" web01 --become
+   54  clear
+   55  ansible -i inventory -m service -a "name=httpd state=started enabled=yes" web01 --become
+   56  clear
+   57  vim index.html
+   58  ansible -i inventory -m copy -a "src=index.html dest=/var/www/html/index.html" web01 --become
+   59  vim index.html 
+   60  ansible -i inventory -m copy -a "src=index.html dest=/var/www/html/index.html" web01 --become
+   61  ls
+   62  cd ..
+   63  history > history.txt

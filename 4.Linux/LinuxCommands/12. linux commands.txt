@@ -1,0 +1,38 @@
+466  cd /var/log/
+  467  ls
+  468  ls jenkins/
+  469  clear
+  470  pwd
+  471  tar --help
+  472  clear
+  473  cd /var/log/
+  474  pwd
+  475  tar -czvf jenkins_06122020.tar.gz jenkins
+  476  ls -l
+  477  ls -ltr
+  478  file jenkins_06122020.tar.gz
+  479  clear
+  480  mv jenkins_06122020.tar.gz /tmp/
+  481  cd /tmp/
+  482  ls
+  483  tar -xzvf jenkins_06122020.tar.gz
+  484  ls
+  485  tar -xzvf jenkins_06122020.tar.gz -C /opt/
+  486  ls /opt/
+  487  cd
+  488  clear
+  489  tar --help
+  490  clear
+  491  cd /var/log/
+  492  yum install zip unzip -y
+  493  clear
+  494  ls
+  495  zip -r jenkins_06122020.zip jenkins
+  496  ls -ltr jenkins*
+  497  mv jenkins_06122020.zip /opt/
+  498  cd /opt/
+  499  ls
+  500  rm -rf jenkins
+  501  unzip jenkins_06122020.zip
+  502  ls
+  503  clear

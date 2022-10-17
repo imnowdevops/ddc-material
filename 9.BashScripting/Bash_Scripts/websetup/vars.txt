@@ -1,0 +1,2 @@
+export WEBURL=https://www.tooplate.com/download/2112_brunch
+export DIRNAME=2112_brunch

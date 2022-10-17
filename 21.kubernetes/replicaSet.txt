@@ -1,0 +1,21 @@
+vim replset.yaml
+kubectl create -f replset.yaml
+kubectl get pod
+kubectl delete pod nginx1 nginx12 web2
+clear
+kubectl get pod
+clear
+kubectl get rs
+kubectl get pod
+kubectl delete pod frontend-qmxml frontend-s4kbp
+kubectl get pod
+vim replset.yaml
+kubectl apply -f replset.yaml
+clear
+kubectl get pod
+kubectl scale --replicas=1 rs/frontend
+kubectl get pod
+kubectl edit rs frontend
+kubectl get pod
+kubectl delete rs frontend
+kubectl get pod

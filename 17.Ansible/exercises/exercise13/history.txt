@@ -1,0 +1,20 @@
+288  ansible-playbook --help
+  289  clear
+  290  ansible-playbook provisioning.yaml --list-tasks
+  291  ansible-playbook --help
+  292  ansible-playbook provisioning.yaml --list-tasks
+  293  clear
+  294  ansible-playbook provisioning.yaml --list-tasks
+  295  ansible-playbook provisioning.yaml --start-at-task "Deploy NTP conf file for RedHat"
+  296  vim provisioning.yaml
+  297  clear
+  298  ansible-playbook provisioning.yaml --list-tags
+  299  ansible-playbook provisioning.yaml --tags packages
+  300  clear
+  301  ansible-playbook provisioning.yaml --skip-tags packages
+  302  clear
+  303  ansible-playbook provisioning.yaml --help
+  304  clear
+  305  ansible-playbook provisioning.yaml --step
+  306  ansible-playbook provisioning.yaml --help
+
