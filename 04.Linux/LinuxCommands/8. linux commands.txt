@@ -1,0 +1,29 @@
+vagrant
+109  whoami
+  110  sudo yum install git -y
+  111  clear
+  112  yum install git -y
+  113  useradd test
+  114  sudo useradd test
+  115  sudo -i
+
+ROOT
+349  su - ansible
+  350  passwd ansible
+  351  su - ansible
+  352  clear
+  353  visudo
+  354  ls -l /etc/sudoers
+  355  visudo
+  356  su - ansible
+  357  visudo
+  358  su - ansible
+  359  clear
+  360  ls -l /etc/sudoers
+  361  visudo
+  362  cd /etc/sudoers.d/
+  363  ls
+  364  cat vagrant
+  365  cp vagrant devops
+  366  vim devops
+  367  cat *

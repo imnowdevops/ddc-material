@@ -1,0 +1,21 @@
+441  top
+  442  clear
+  443  ps aux
+  444  clear
+  445  ps -ef
+  446  clear
+  447  ps -ef | grep httpd
+  448  ps -ef | grep httpd | grep -v 'grep'
+  449  kill 1420
+  450  ps -ef | grep httpd | grep -v 'grep'
+  451  systemctl start httpd
+  452  ps -ef | grep httpd | grep -v 'grep'
+  453  kill -9 1476
+  454  ps -ef | grep httpd | grep -v 'grep'
+  455  clear
+  456  ps -ef | grep httpd | grep -v 'grep'
+  457  ps -ef | grep httpd | grep -v 'grep' | awk '{print $2}'
+  458  ps -ef | grep httpd | grep -v 'grep' | awk '{print $2}' | xargs kill -9
+  459  systemctl start httpd
+  460  ps -ef | grep httpd | grep -v 'grep' | awk '{print $2}'
+  461  ps -ef | grep httpd | grep -v 'grep' | awk '{print $2}' | xargs kill -9

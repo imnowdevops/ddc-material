@@ -1,0 +1,51 @@
+ROOT
+52  pwd
+   53  ls -l
+   54  mkdir devopsdir
+   55  ls -l
+   56  file anaconda-ks.cfg
+   57  cd /bin/
+   58  ls -l
+   59  file yum
+   60  file /bin/pwd
+   61  cd
+   62  clear
+   63  ls -l
+   64  file devopsdir
+   65  cd /dev/
+   66  ls -l
+   67  cd
+   68  clear
+   69  pwd
+   70  ls
+   71  mkdir /opt/dev/ops/devops/test
+   72  mkdir -p /opt/dev/ops/devops/test
+   73  mkdir  /opt/dev/ops/devops/test
+   74  vim /opt/dev/ops/devops/test/commands.txt
+   75  ln -s /opt/dev/ops/devops/test/commands.txt cmds
+   76  ls -l
+   77  cat cmds
+   78  mv /opt/dev/ops/devops/test/commands.txt /tmp/
+   79  ls -l
+   80  mv /tmp/commands.txt /opt/dev/ops/devops/test/commands.txt
+   81  ls -l
+   82  clear
+   83  ls -l
+   84  unlink cmds
+   85  ls -l
+   86  ln -s /opt/dev/ops/devops/test/commands.txt cmds
+   87  ls -l
+   88  ls -lt
+   89  ls -ltr
+   90  ls -ltr  /etc/
+   91  vim /etc/hostname
+   92  hostname centos7.devops.in
+
+VAGRANT
+99  sudo -i
+  100  clear
+  101  hostname
+  102  ls -ltr /etc/
+  103  clear
+  104  history
+  105  sudo -i

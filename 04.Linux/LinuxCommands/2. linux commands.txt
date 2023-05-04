@@ -1,0 +1,71 @@
+14  clear
+   15  ls
+   16  pwd
+   17  mkdir dev
+   18  mkdir ops bakupdir
+   19  ls
+   20  pwd
+   21  touch testfile1.txt
+   22  ls
+   23  touch devopsfile{1..10}.txt
+   24  ls
+   25  cp devopsfile1.txt dev/
+   26  ls dev/
+   27  ls
+   28  cd /tmp/
+   29  ls
+   30  ls /home/vagrant/dev/
+   31  cd
+   32  clear
+   33  ls
+   34  pwd
+   35  cd /tmp/
+   36  cp /home/vagrant/devopsfile2.txt /home/vagrant/dev/
+   37  cd ~
+   38  pwd
+   39  ls
+   40  cp dev bakupdir/
+   41  ls bakupdir/
+   42  ls /home/vagrant/bakupdir/
+   43  cp -r dev bakupdir/
+   44  ls bakupdir/
+   45  ls /home/vagrant/bakupdir/
+   46  clear
+   47  cp --help
+   48  clear
+   49  pwd
+   50  ls
+   51  mv devopsfile3.txt ops/
+   52  ls ops/
+   53  mv ops dev/
+   54  ls
+   55  ls dev/
+   56  ls
+   57  mv testfile1.txt testfile22.txt
+   58  ls
+   59  clear
+   60  ls
+   61  mkdir textdir
+   62  ls
+   63  mv *.txt textdir/
+   64  ls
+   65  cd textdir/
+   66  ls
+   67  rm devopsfile10.txt
+   68  mkdir mobile
+   69  ls
+   70  rm mobile
+   71  rm -r mobile
+   72  ls
+   73  clear
+   74  ls
+   75  mkdir testdir{1..5}
+   76  ls
+   77  rm -rf *
+   78  ls
+   79  pwd
+   80  cd
+   81  ls
+   82  rm -rf *
+   83  ls
+   84  history

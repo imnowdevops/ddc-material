@@ -1,0 +1,24 @@
+415  yum install httpd -y
+  416  systemctl status httpd
+  417  systemctl start httpd
+  418  systemctl status httpd
+  419  clear
+  420  systemctl restart httpd
+  421  systemctl reload httpd
+  422  systemctl status httpd
+  423  exit
+  424  systemctl status httpd
+  425  clear
+  426  systemctl enable httpd
+  427  systemctl status sshd
+  428  clear
+  429  systemctl is-active httpd
+  430  systemctl status httpd
+  431  systemctl start httpd
+  432  systemctl status httpd
+  433  systemctl is-active httpd
+  434  clear
+  435  systemctl is-enabled httpd
+  436  cat /etc/systemd/system/multi-user.target.wants/httpd.service
+  437  clear
+  438  cat /etc/systemd/system/multi-user.target.wants/httpd.service

@@ -1,0 +1,5 @@
+https://github.com
+https://www.godaddy.com
+https://hub.docker.com
+https://www.sonarsource.com/products/sonarcloud/
+https://aws.amazon.com/free

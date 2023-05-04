@@ -1,0 +1,33 @@
+313  mkdir /opt/devopsdir
+  314  ls -l /opt/
+  315  groupadd devops
+  316  useradd ansible
+  317  useradd jenkins
+  318  useradd aws
+  319  useradd miles
+  320  vim /etc/group
+  321  id ansible
+  322  clear
+  323  ls -ld /opt/devopsdir
+  324  chown -R ansible:devops /opt/devopsdir
+  325  ls -ld /opt/devopsdir
+  326  chmod o-x /opt/devopsdir
+  327  ls -ld /opt/devopsdir
+  328  chmod o-r /opt/devopsdir
+  329  ls -ld /opt/devopsdir
+  330  chmod g+w /opt/devopsdir
+  331  ls -ld /opt/devopsdir
+  332  su - miles
+  333  su - aws
+  334  clear
+  335  mkdir /opt/webdata
+  336  ls -ld /opt/webdata/
+  337  chown aws.devops /opt/webdata
+  338  ls -ld /opt/webdata/
+  339  chmod 770 /opt/webdata
+  340  ls -ld /opt/webdata/
+  341  chmod 000 /opt/webdata
+  342  ls -ld /opt/webdata/
+  343  chmod 777 /opt/webdata
+  344  ls -ld /opt/webdata/
+  345  clear

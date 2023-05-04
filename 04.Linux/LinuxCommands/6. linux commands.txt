@@ -1,0 +1,51 @@
+258  whoami
+  259  cat /etc/passwd
+  260  head -1 /etc/passwd
+  261  clear
+  262  head -1 /etc/passwd
+  263  grep vagrant /etc/passwd
+  264  cat /etc/passwd
+  265  clear
+  266  cat /etc/group
+  267  clear
+  268  grep vagrant /etc/passwd
+  269  grep vagrant /etc/group
+  270  id vagrant
+  271  clear
+  272  useradd ansible
+  273  useradd jenkins
+  274  useradd aws
+  275  tail -4 /etc/passwd
+  276  tail -4 /etc/group
+  277  id ansible
+  278  groupadd devops
+  279  clear
+  280  usermod -aG devops ansible
+  281  id ansible
+  282  grep devops /etc/group
+  283  vim /etc/group
+  284  id aws
+  285  clear
+  286  passwd ansible
+  287  passwd aws
+  288  passwd jenkins
+  289  clear
+  290  su - ansible
+  291  clear
+  292  last
+  293  who
+  294  lsof -u vagrant
+  295  yum install lsof -y
+  296  clear
+  297  lsof -u vagrant
+  298  clear
+  299  lsof -u aws
+  300  userdel aws
+  301  ls /home/
+  302  userdel -r jenkins
+  303  ls /home/
+  304  groupdel devops
+  305  userdel -r ansible
+  306  ls /home/
+  307  rm -rf /home/aws
+  308  clear

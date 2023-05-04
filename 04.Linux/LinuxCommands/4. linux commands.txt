@@ -1,0 +1,86 @@
+94  ls
+   95  clear
+   96  ls
+   97  grep firewall anaconda-ks.cfg
+   98  grep Firewall anaconda-ks.cfg
+   99  grep -i Firewall anaconda-ks.cfg
+  100  vim anaconda-ks.cfg
+  101  grep -i firewall anaconda-ks.cfg
+  102  grep -i firewall < anaconda-ks.cfg
+  103  grep -i firewall ls
+  104  ls
+  105  grep -i firewall *
+  106  clear
+  107  grep -i firewall *
+  108  grep -iR firewall *
+  109  cp anaconda-ks.cfg devopsdir/mybootingfile.cfg
+  110  grep -iR firewall *
+  111  clear
+  112  cd /etc/
+  113  ls
+  114  cd NetworkManager/
+  115  lsa
+  116  ls
+  117  vim NetworkManager.conf
+  118  cd ..
+  119  ls
+  120  cd selinux/
+  121  ls
+  122  cat config
+  123  cd
+  124  clear
+  125  grep -i selinux /etc/
+  126  grep -i selinux /etc/ -R
+  127  clear
+  128  grep SELINUX /etc/ -R
+  129  clear
+  130  grep -R SELINUX /etc/*
+  131  vim /etc/selinux/config
+  132  clear
+  133  grep -vi firewall anaconda-ks.cfg
+  134  clear
+  135  less anaconda-ks.cfg
+  136  more anaconda-ks.cfg
+  137  clear
+  138  head anaconda-ks.cfg
+  139  head -20 anaconda-ks.cfg
+  140  head -2 anaconda-ks.cfg
+  141  clear
+  142  tail anaconda-ks.cfg
+  143  tail -2 anaconda-ks.cfg
+  144  tail -f anaconda-ks.cfg
+  145  clear
+  146  cd /var/log/
+  147  ls
+  148  tail -f yum.log
+  149  ls
+  150  clear
+  151  cat messages
+  152  clear
+  153  tail -f /var/log/messages
+  154  cd
+  155  clear
+  156  cat /etc/passwd
+  157  clear
+  158  cut -d: -f1 /etc/passwd
+  159  cut -d: -f3 /etc/passwd
+  160  cut -d: -f4 /etc/passwd
+  161  clear
+  162  awk '{print $1}' /etc/passwd
+  163  awk -F':' '{print $1}' /etc/passwd
+  164  clear
+  165  awk -F':' '{print $1}' /etc/passwd
+  166  ls
+  167  cat cmds
+  168  clear
+  169  vim samplefile.txt
+  170  clear
+  171  cat samplefile.txt
+  172  vim samplefile.txt
+  173  cat samplefile.txt
+  174  sed 's/coronavirus/covid19/g' samplefile.txt
+  175  cat samplefile.txt
+  176  sed -i 's/coronavirus/covid19/g' samplefile.txt
+  177  cat samplefile.txt
+  178  sed -i 's/covid19/nothing/g' samplefile.txt
+  179  cat samplefile.txt
