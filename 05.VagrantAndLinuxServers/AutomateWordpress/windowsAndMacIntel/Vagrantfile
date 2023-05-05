@@ -32,7 +32,7 @@ Vagrant.configure("2") do |config|
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
-   config.vm.network "private_network", ip: "192.168.33.16"
+   config.vm.network "private_network", ip: "192.168.56.17"
 
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
@@ -91,7 +91,7 @@ Vagrant.configure("2") do |config|
 
    mysql -u root -e 'CREATE DATABASE wordpress;'
    mysql -u root -e 'CREATE USER wordpress@localhost IDENTIFIED BY "admin123";'
-   mysql -u root -e 'GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,ALTER ON wordpress.* TO wordpress@localhost IDENTIFIED BY "admin123";'
+   mysql -u root -e 'GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,ALTER ON wordpress.* TO wordpress@localhost;'
    mysql -u root -e 'FLUSH PRIVILEGES;'
    sudo -u www-data cp /srv/www/wordpress/wp-config-sample.php /srv/www/wordpress/wp-config.php
    sudo -u www-data sed -i 's/database_name_here/wordpress/' /srv/www/wordpress/wp-config.php
