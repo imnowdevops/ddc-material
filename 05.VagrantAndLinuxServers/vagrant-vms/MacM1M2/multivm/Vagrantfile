@@ -1,0 +1,41 @@
+Vagrant.configure("2") do |config|
+    config.vm.define "web01" do |web01|
+      web01.vm.box = "spox/ubuntu-arm" 
+      web01.vm.box_version = "1.0.0"
+      web01.vm.hostname = "web01"
+      web01.vm.network "private_network", ip: "192.168.56.41"
+      web01.vm.provider "vmware_desktop" do |vmware|
+        vmware.ssh_info_public = true
+        vmware.gui = true
+       end
+    end
+  
+    config.vm.define "web02" do |web02|
+      web02.vm.box = "spox/ubuntu-arm" 
+      web02.vm.box_version = "1.0.0"
+      web02.vm.hostname = "web02"
+      web02.vm.network "private_network", ip: "192.168.56.41"
+      web02.vm.provider "vmware_desktop" do |vmware|
+        vmware.ssh_info_public = true
+        vmware.gui = true
+       end
+    end
+  
+
+    config.vm.define "db01" do |db01|
+      db01.vm.box = "jacobw/fedora35-arm64"
+      db01.vm.hostname = "db01"
+      db01.vm.network "private_network", ip: "192.168.56.42"
+      db01.vm.provider "vmware_desktop" do |vmware|
+        vmware.ssh_info_public = true
+        vmware.gui = true
+       end
+      db01.vm.provision "shell", inline: <<-SHELL
+        yum install -y wget unzip mariadb-server -y
+        systemctl start mariadb
+        systemctl enable mariadb
+        # Additional provisioning steps for db01
+      SHELL
+    end
+  end
+  

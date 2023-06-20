@@ -1,0 +1,32 @@
+Vagrant.configure("2") do |config|
+    config.vm.define "web01" do |web01|
+      web01.vm.box = "ubuntu/focal64"
+      web01.vm.hostname = "web01"
+      web01.vm.network "private_network", ip: "192.168.56.41"
+    end
+  
+    config.vm.define "web02" do |web02|
+      web02.vm.box = "ubuntu/focal64"
+      web02.vm.hostname = "web02"
+      web02.vm.network "private_network", ip: "192.168.56.41"
+    end
+  
+    config.vm.define "web03" do |web03|
+        web03.vm.box = "ubuntu/focal64"
+        web03.vm.hostname = "web02"
+        web03.vm.network "private_network", ip: "192.168.56.44"
+      end
+
+    config.vm.define "db01" do |db01|
+      db01.vm.box = "centos/7"
+      db01.vm.hostname = "db01"
+      db01.vm.network "private_network", ip: "192.168.56.42"
+      db01.vm.provision "shell", inline: <<-SHELL
+        yum install -y wget unzip mariadb-server -y
+        systemctl start mariadb
+        systemctl enable mariadb
+        # Additional provisioning steps for db01
+      SHELL
+    end
+  end
+  
