@@ -49,4 +49,3 @@
    37  clear
    38  ls
    39  cd
-   40  clear
